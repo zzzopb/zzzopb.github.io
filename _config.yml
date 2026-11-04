@@ -1,0 +1,45 @@
+title: 平视
+tagline: 不俯视，不仰视，平等地认识彼此
+description: 一个关于特殊人群的科普网站：用通俗、准确、尊重的方式，讲清楚不同人群的真实处境。
+lang: zh-CN
+url: https://zzzopb.github.io
+baseurl: ""
+timezone: Asia/Shanghai
+
+permalink: /:categories/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+
+# 栏目：live 为 true 的才会显示成链接
+sections:
+  - key: vision
+    name: 视障
+    desc: 盲人与低视力人士
+    live: true
+  - key: hearing
+    name: 听障
+    desc: 聋人与听力障碍人士
+    live: false
+  - key: autism
+    name: 自闭症
+    desc: 孤独症谱系
+    live: false
+  - key: dementia
+    name: 阿尔茨海默症
+    desc: 认知症与照护
+    live: false
+  - key: mobility
+    name: 肢体障碍
+    desc: 轮椅使用者与行动不便人士
+    live: false
+  - key: rare
+    name: 罕见病
+    desc: 被忽视的少数
+    live: false
+
+exclude:
+  - README.md
+  - WRITING_GUIDE.md
