@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.summary | default: site.description | strip_html | strip_newlines | truncate: 120 }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <script>
+    // 在页面显示前就套用读者上次选的字号和配色，避免闪一下
+    try {
+      var fs = localStorage.getItem('pingshi-font');
+      if (fs) document.documentElement.setAttribute('data-font', fs);
+      var th = localStorage.getItem('pingshi-theme');
+      if (th) document.documentElement.setAttribute('data-theme', th);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  {% include header.html %}
+  <main id="main" tabindex="-1">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/assets/a11y.js' | relative_url }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+/* 平视 —— 样式表
+   原则：字大、行距宽、对比度高、键盘可用、不依赖颜色传达信息。
+   正文对比度按 WCAG AAA（7:1）设计。 */
+
+:root {
+  --bg: #fbfaf6;
+  --surface: #f2efe7;
+  --text: #1c1b18;
+  --muted: #4a4740;
+  --line: #d8d3c6;
+  --accent: #0a5a52;
+  --accent-soft: #e2efec;
+  --focus: #b3470d;
+  --base: 18px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="contrast"]) {
+    --bg: #151513;
+    --surface: #1f1e1b;
+    --text: #edebe4;
+    --muted: #bdb8ab;
+    --line: #3a3833;
+    --accent: #85d3c6;
+    --accent-soft: #1f302d;
+    --focus: #ffb37a;
+    color-scheme: dark;
+  }
+}
+/* 高对比度模式：黑底、白字、黄色链接 */
+:root[data-theme="contrast"] {
+  --bg: #000;
+  --surface: #000;
+  --text: #fff;
+  --muted: #fff;
+  --line: #fff;
+  --accent: #ffe600;
+  --accent-soft: #000;
+  --focus: #00e5ff;
+  color-scheme: dark;
+}
+:root[data-font="-1"] { --base: 16px; }
+:root[data-font="1"]  { --base: 20px; }
+:root[data-font="2"]  { --base: 23px; }
+:root[data-font="3"]  { --base: 26px; }
+
+* { box-sizing: border-box; }
+html { font-size: var(--base); -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", system-ui, sans-serif;
+  line-height: 1.85;
+  letter-spacing: 0.01em;
+}
+.wrap { max-width: 44rem; margin: 0 auto; padding: 0 1rem; }
+
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 0.2em; text-decoration-thickness: 0.08em; }
+a:hover { text-decoration-thickness: 0.15em; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 2px; }
+
+.skip-link { position: absolute; left: 1rem; top: -4rem; background: var(--text); color: var(--bg); padding: 0.5rem 1rem; z-index: 10; }
+.skip-link:focus { top: 0.5rem; }
+main:focus { outline: none; }
+
+/* 页头 */
+.site-header { border-bottom: 1px solid var(--line); background: var(--bg); }
+.header-inner { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.25rem; padding-top: 0.9rem; padding-bottom: 0.9rem; }
+.brand { text-decoration: none; color: var(--text); display: flex; flex-direction: column; line-height: 1.3; margin-right: auto; }
+.brand-name { font-size: 1.5rem; font-weight: 700; letter-spacing: 0.15em; }
+.brand-tag { font-size: 0.8rem; color: var(--muted); }
+.site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; }
+.site-nav a { color: var(--text); text-decoration: none; padding: 0.25rem 0; border-bottom: 2px solid transparent; }
+.site-nav a:hover, .site-nav a[aria-current="page"] { border-bottom-color: var(--accent); }
+.reader-tools { display: flex; gap: 0.35rem; }
+.tool {
+  font: inherit; font-size: 0.85rem; min-width: 2.75rem; min-height: 2.75rem; padding: 0 0.6rem;
+  background: var(--surface); color: var(--text); border: 1px solid var(--line); border-radius: 0.4rem; cursor: pointer;
+}
+.tool:hover { border-color: var(--accent); }
+.tool[aria-pressed="true"] { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+
+/* 首页 */
+.hero { padding: 2.5rem 0 1.5rem; }
+.hero h1 { font-size: 2rem; line-height: 1.35; margin: 0 0 0.75rem; letter-spacing: 0.04em; }
+.hero p { font-size: 1.1rem; color: var(--muted); margin: 0.4rem 0; }
+.section-title { font-size: 1.25rem; margin: 2rem 0 0.75rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--line); }
+.cards { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); gap: 0.75rem; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 0.5rem; padding: 0.9rem 1rem; }
+.card h3 { margin: 0; font-size: 1.1rem; }
+.card p { margin: 0.2rem 0 0; font-size: 0.9rem; color: var(--muted); }
+.card.live { border-color: var(--accent); }
+.card.live a { text-decoration: none; }
+.card.live a::after { content: " →"; }
+.card .soon { display: inline-block; margin-top: 0.4rem; font-size: 0.8rem; color: var(--muted); border: 1px dashed var(--line); padding: 0 0.4rem; border-radius: 0.3rem; }
+
+.post-list { list-style: none; padding: 0; margin: 0; }
+.post-list li { padding: 0.75rem 0; border-bottom: 1px solid var(--line); }
+.post-list .pl-title { font-size: 1.05rem; font-weight: 600; }
+.post-list .pl-meta { display: block; font-size: 0.85rem; color: var(--muted); }
+.post-list .pl-sum { display: block; font-size: 0.95rem; color: var(--muted); margin-top: 0.15rem; }
+
+/* 文章 */
+.crumbs { font-size: 0.85rem; color: var(--muted); margin: 1.5rem 0 0.5rem; }
+.post-head h1 { font-size: 1.85rem; line-height: 1.4; margin: 0.25rem 0 0.5rem; }
+.lede { font-size: 1.1rem; color: var(--muted); margin: 0.25rem 0 0.5rem; }
+.meta { font-size: 0.85rem; color: var(--muted); margin: 0 0 1.5rem; }
+.prose h2 { font-size: 1.35rem; line-height: 1.45; margin: 2.2rem 0 0.6rem; }
+.prose h3 { font-size: 1.12rem; margin: 1.6rem 0 0.4rem; }
+.prose p, .prose li { max-width: 40em; }
+.prose li { margin: 0.3rem 0; }
+.prose blockquote { margin: 1.25rem 0; padding: 0.6rem 1rem; border-left: 4px solid var(--accent); background: var(--accent-soft); }
+.prose blockquote p { margin: 0.3rem 0; }
+.prose table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; display: block; overflow-x: auto; }
+.prose th, .prose td { border: 1px solid var(--line); padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; }
+.prose th { background: var(--surface); }
+.prose hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
+.note { background: var(--surface); border: 1px solid var(--line); border-radius: 0.5rem; padding: 0.75rem 1rem; }
+.sources { font-size: 0.9rem; }
+.sources li { word-break: break-word; }
+.post-foot { margin-top: 2.5rem; padding: 0.9rem 1rem; background: var(--surface); border-radius: 0.5rem; font-size: 0.92rem; }
+.more { margin: 2rem 0 3rem; }
+.more h2 { font-size: 1.1rem; }
+
+/* 页脚 */
+.site-footer { border-top: 1px solid var(--line); margin-top: 3rem; padding: 1.5rem 0 2.5rem; font-size: 0.85rem; color: var(--muted); }
+.site-footer p { margin: 0.3rem 0; }
+
+@media (max-width: 600px) {
+  .hero h1 { font-size: 1.6rem; }
+  .post-head h1 { font-size: 1.5rem; }
+  .reader-tools { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+@media print { .site-header, .site-footer, .reader-tools, .more, .post-foot { display: none; } }

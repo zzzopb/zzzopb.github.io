@@ -1,0 +1,20 @@
+---
+layout: default
+title: 视障
+summary: 关于盲人与低视力人士的科普：视障是什么、常见误解、怎么相处、怎么用手机、导盲犬。
+---
+<div class="wrap prose">
+  <nav class="crumbs" aria-label="当前位置"><a href="{{ '/' | relative_url }}">首页</a> <span aria-hidden="true">›</span> <span>视障</span></nav>
+  <h1>视障</h1>
+  <p class="lede">「视障」包括完全看不见的盲人，也包括还有一部分视力、但戴眼镜也矫正不过来的低视力人士。</p>
+  <p>建议从第一篇开始读：</p>
+  <ul class="post-list">
+    {% assign ps = site.categories.vision | sort: "order" %}
+    {% for p in ps %}
+    <li>
+      <a class="pl-title" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      {% if p.summary %}<span class="pl-sum">{{ p.summary }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="wrap">
+  <section class="hero" aria-labelledby="hero-title">
+    <h1 id="hero-title">不俯视，不仰视，<br>平等地认识彼此。</h1>
+    <p>「平视」是一个关于特殊人群的科普网站。</p>
+    <p>我们想用通俗、准确、尊重的方式，讲清楚不同人群的真实处境：他们是谁，常被怎样误解，日常怎么生活，我们又能怎样相处。</p>
+  </section>
+
+  <section aria-labelledby="sec-title">
+    <h2 class="section-title" id="sec-title">栏目</h2>
+    <ul class="cards">
+      {% for s in site.sections %}
+      <li class="card{% if s.live %} live{% endif %}">
+        {% if s.live %}
+        <h3><a href="{{ '/' | append: s.key | append: '/' | relative_url }}">{{ s.name }}</a></h3>
+        <p>{{ s.desc }}</p>
+        {% else %}
+        <h3>{{ s.name }}</h3>
+        <p>{{ s.desc }}</p>
+        <span class="soon">筹备中</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section aria-labelledby="latest-title">
+    <h2 class="section-title" id="latest-title">最新文章</h2>
+    <ul class="post-list">
+      {% for p in site.posts limit: 8 %}
+      {% assign sec = site.sections | where: "key", p.categories.first | first %}
+      <li>
+        <a class="pl-title" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        <span class="pl-meta">{% if sec %}{{ sec.name }} · {% endif %}<time datetime="{{ p.date | date: '%Y-%m-%d' }}">{{ p.date | date: '%Y-%m-%d' }}</time></span>
+        {% if p.summary %}<span class="pl-sum">{{ p.summary }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
