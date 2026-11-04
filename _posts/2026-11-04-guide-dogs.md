@@ -16,6 +16,14 @@ reading: 4
 
 中国导盲犬大连培训基地是国内第一家提供导盲犬繁育、培训、使用指导的非营利机构。据新华社 2025 年的报道，基地自 2006 年成立以来，已经向视障者**免费**提供了 400 多只导盲犬。
 
+## 和国外比一比
+
+导盲犬不够用，并不只是国内的问题。
+
+据英国《卫报》2023 年 4 月的报道，英国的导盲犬使用者从 2017 年的 5000 多人降到了 2022 年的 **3695 人**，申请者平均要等 **18 个月**。报道中一位资深训犬师认为，原因之一是训练方法调整后，能顺利毕业的狗变少了。
+
+两边的数字年份不同（英国是 2022 年，国内是 2026 年），统计的也不完全是一回事（英国数的是使用者，国内数的是在岗的狗），只能大致看出差距：英国的导盲犬使用者人数，大约是国内在岗导盲犬数量的 9 倍。
+
 ## 一只导盲犬是怎么养成的
 
 《人民日报》的报道描述了大致过程：
@@ -53,5 +61,6 @@ reading: 4
 <ul class="sources">
 <li>《人民日报》：《一只导盲犬这样"养成"》，2026 年 5 月 25 日第 13 版：<a href="https://paper.people.com.cn/rmrb/pc/content/202605/25/content_30158865.html">链接</a></li>
 <li>新华社，2025 年 5 月 2 日报道（中国导盲犬大连培训基地）：<a href="https://www.news.cn/politics/20250502/fbd45d4604734f87a6dabf3630576ce8/c.html">链接</a></li>
+<li>The Guardian：Rewards-led training regime behind long waits for UK guide dogs, says campaigner，2023 年 4 月 23 日（雅虎新闻转载）：<a href="https://uk.news.yahoo.com/rewards-led-training-regime-behind-160043057.html">链接</a></li>
 <li>《中华人民共和国无障碍环境建设法》第四十六条（澎湃新闻转载法律全文）：<a href="https://m.thepaper.cn/baijiahao_23654115">链接</a></li>
 </ul>
