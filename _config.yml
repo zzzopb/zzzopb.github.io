@@ -16,26 +16,32 @@ kramdown:
 # 栏目：live 为 true 的才会显示成链接
 sections:
   - key: vision
+    tag: 视障人士
     name: 视障
     desc: 盲人与低视力人士
     live: true
   - key: hearing
+    tag: 听障人士
     name: 听障
     desc: 聋人与听力障碍人士
     live: false
   - key: autism
+    tag: 孤独症谱系人士
     name: 自闭症
     desc: 孤独症谱系
     live: false
   - key: dementia
+    tag: 认知症人士与家人
     name: 阿尔茨海默症
     desc: 认知症与照护
     live: false
   - key: mobility
+    tag: 轮椅使用者
     name: 肢体障碍
     desc: 轮椅使用者与行动不便人士
     live: false
   - key: rare
+    tag: 罕见病群体
     name: 罕见病
     desc: 被忽视的少数
     live: false

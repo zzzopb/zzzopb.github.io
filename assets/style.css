@@ -95,6 +95,24 @@ main:focus { outline: none; }
 .card.live a::after { content: " →"; }
 .card .soon { display: inline-block; margin-top: 0.4rem; font-size: 0.8rem; color: var(--muted); border: 1px dashed var(--line); padding: 0 0.4rem; border-radius: 0.3rem; }
 
+/* 首页街景：每个栏目是街上的一个人，点头顶的名牌进入栏目 */
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.street { background: var(--accent-soft); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); overflow-x: auto; }
+.street-row { list-style: none; margin: 0 auto; padding: 1.5rem 1rem 0; display: flex; width: max-content; }
+.stop { width: 300px; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; transition: transform .15s ease; }
+.stop.live:hover, .stop.live:focus-within { transform: translateY(-4px); }
+.scene { display: block; width: 300px; height: auto; }
+.nameplate { display: inline-flex; align-items: center; gap: 0.3em; min-height: 2.75rem; padding: 0 1rem; border-radius: 999px; font-size: 0.95rem; }
+a.nameplate { background: var(--accent); color: var(--bg); text-decoration: none; font-weight: 600; }
+a.nameplate:hover { text-decoration: underline; }
+.nameplate.soon { background: var(--bg); color: var(--muted); border: 1px dashed var(--muted); }
+.section-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: 0.25rem 1.5rem; }
+.section-list li { padding: 0.4rem 0; }
+.sl-name { font-size: 1.05rem; font-weight: 600; }
+.sl-name.soon { color: var(--muted); }
+.sl-desc { display: block; font-size: 0.9rem; color: var(--muted); }
+:root[data-theme="contrast"] .street { background: #000; }
+
 .post-list { list-style: none; padding: 0; margin: 0; }
 .post-list li { padding: 0.75rem 0; border-bottom: 1px solid var(--line); }
 .post-list .pl-title { font-size: 1.05rem; font-weight: 600; }

@@ -3,24 +3,47 @@ layout: default
 ---
 <div class="wrap">
   <section class="hero" aria-labelledby="hero-title">
-    <h1 id="hero-title">不俯视，不仰视，<br>平等地认识彼此。</h1>
-    <p>「平视」是一个关于特殊人群的科普网站。</p>
-    <p>我们想用通俗、准确、尊重的方式，讲清楚不同人群的真实处境：他们是谁，常被怎样误解，日常怎么生活，我们又能怎样相处。</p>
+    <h1 id="hero-title">同一条街上，<br>住着各种各样的人。</h1>
+    <p>「平视」是一个关于特殊人群的科普网站：不俯视，不仰视，平等地认识彼此。</p>
+    <p>点一下头顶的名牌，认识他们的日常。往右滑，看看街上还有谁。</p>
   </section>
+</div>
 
+<section class="street" aria-labelledby="street-title">
+  <h2 class="visually-hidden" id="street-title">街景：各栏目入口</h2>
+  <ul class="street-row">
+    {% for s in site.sections %}
+    <li class="stop{% if s.live %} live{% endif %}">
+      {% if s.live %}
+      <a class="nameplate" href="{{ '/' | append: s.key | append: '/' | relative_url }}">{{ s.tag }} <span aria-hidden="true">→</span></a>
+      {% else %}
+      <span class="nameplate soon">{{ s.tag }} · 筹备中</span>
+      {% endif %}
+      {% case s.key %}
+      {% when 'vision' %}{% include scenes/vision.svg %}
+      {% when 'hearing' %}{% include scenes/hearing.svg %}
+      {% when 'autism' %}{% include scenes/autism.svg %}
+      {% when 'dementia' %}{% include scenes/dementia.svg %}
+      {% when 'mobility' %}{% include scenes/mobility.svg %}
+      {% when 'rare' %}{% include scenes/rare.svg %}
+      {% endcase %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<div class="wrap">
   <section aria-labelledby="sec-title">
-    <h2 class="section-title" id="sec-title">栏目</h2>
-    <ul class="cards">
+    <h2 class="section-title" id="sec-title">栏目一览</h2>
+    <ul class="section-list">
       {% for s in site.sections %}
-      <li class="card{% if s.live %} live{% endif %}">
+      <li>
         {% if s.live %}
-        <h3><a href="{{ '/' | append: s.key | append: '/' | relative_url }}">{{ s.name }}</a></h3>
-        <p>{{ s.desc }}</p>
+        <a class="sl-name" href="{{ '/' | append: s.key | append: '/' | relative_url }}">{{ s.name }}</a>
         {% else %}
-        <h3>{{ s.name }}</h3>
-        <p>{{ s.desc }}</p>
-        <span class="soon">筹备中</span>
+        <span class="sl-name soon">{{ s.name }}（筹备中）</span>
         {% endif %}
+        <span class="sl-desc">{{ s.desc }}</span>
       </li>
       {% endfor %}
     </ul>

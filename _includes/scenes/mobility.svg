@@ -1,0 +1,26 @@
+<svg viewBox="0 0 320 200" role="img" aria-label="插画：一位轮椅使用者来到有坡道的店门口" class="scene" focusable="false">
+<rect x="0" y="180" width="320" height="20" fill="#d8d3c6" />
+<rect x="204" y="28" width="116" height="152" fill="#e9e4d8" />
+<rect x="214" y="100" width="22" height="30" fill="#e2efec" />
+<rect x="244" y="92" width="42" height="88" rx="3" fill="#2f7f73" />
+<circle cx="278" cy="138" r="3" fill="#f0cf7a" />
+<polygon points="232,78 298,78 304,92 226,92" fill="#d9a441" />
+<polygon points="132,180 244,180 244,162" fill="#b9b3a5" />
+<line x1="78" y1="140" x2="74" y2="102" stroke="#4a4740" stroke-width="5" stroke-linecap="round" />
+<line x1="74" y1="102" x2="66" y2="100" stroke="#4a4740" stroke-width="5" stroke-linecap="round" />
+<rect x="76" y="134" width="36" height="6" fill="#4a4740" />
+<rect x="76" y="86" width="30" height="50" rx="12" fill="#4a6fa5" />
+<rect x="87" y="74" width="8" height="12" fill="#8d5a3b" />
+<circle cx="91" cy="62" r="15" fill="#8d5a3b" />
+<path d="M75 63 A16 16 0 0 1 107 63 Q91 51 75 63 Z" fill="#1c1b18" />
+<rect x="90" y="124" width="34" height="13" rx="6" fill="#3b4a5c" />
+<rect x="114" y="128" width="11" height="36" rx="4" fill="#3b4a5c" />
+<rect x="114" y="160" width="18" height="7" rx="3" fill="#2b2a27" />
+<circle cx="86" cy="158" r="22" fill="none" stroke="#1c1b18" stroke-width="4" />
+<circle cx="86" cy="158" r="3" fill="#1c1b18" />
+<line x1="110" y1="140" x2="122" y2="170" stroke="#4a4740" stroke-width="4" stroke-linecap="round" />
+<line x1="118" y1="168" x2="132" y2="168" stroke="#4a4740" stroke-width="4" stroke-linecap="round" />
+<circle cx="124" cy="174" r="6" fill="none" stroke="#1c1b18" stroke-width="3" />
+<line x1="94" y1="96" x2="100" y2="128" stroke="#4a6fa5" stroke-width="9" stroke-linecap="round" />
+<circle cx="101" cy="131" r="5" fill="#8d5a3b" />
+</svg>
