@@ -1,0 +1,42 @@
+<svg viewBox="0 0 320 200" role="img" aria-label="插画：两位朋友坐在公园长椅上，其中一位戴着耳机在画画" class="scene" focusable="false">
+<rect x="0" y="178" width="320" height="22" fill="#d8d3c6" />
+<rect x="262" y="86" width="12" height="94" fill="#8a6a4a" />
+<circle cx="268" cy="66" r="38" fill="#8fbf9a" />
+<circle cx="246" cy="84" r="22" fill="#8fbf9a" />
+<rect x="56" y="96" width="188" height="8" rx="3" fill="#b07a4a" />
+<rect x="66" y="96" width="6" height="34" fill="#b07a4a" />
+<rect x="228" y="96" width="6" height="34" fill="#b07a4a" />
+<rect x="56" y="128" width="188" height="10" rx="3" fill="#b07a4a" />
+<rect x="68" y="138" width="7" height="40" fill="#b07a4a" />
+<rect x="225" y="138" width="7" height="40" fill="#b07a4a" />
+<rect x="108" y="70" width="8" height="12" fill="#e8b48a" />
+<rect x="96" y="80" width="32" height="50" rx="12" fill="#4a6fa5" />
+<rect x="100" y="132" width="10" height="42" rx="4" fill="#3b4a5c" />
+<rect x="114" y="132" width="10" height="42" rx="4" fill="#3b4a5c" />
+<rect x="98" y="171" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="113" y="171" width="13" height="7" rx="3" fill="#2b2a27" />
+<circle cx="112" cy="58" r="15" fill="#e8b48a" />
+<path d="M96 59 A16 16 0 0 1 128 59 Q112 47 96 59 Z" fill="#3a2a1c" />
+<path d="M95 57 A17 17 0 0 1 129 57" fill="none" stroke="#1c1b18" stroke-width="4" />
+<rect x="91" y="52" width="8" height="15" rx="3" fill="#c46a4a" />
+<rect x="125" y="52" width="8" height="15" rx="3" fill="#c46a4a" />
+<line x1="98" y1="88" x2="106" y2="112" stroke="#4a6fa5" stroke-width="9" stroke-linecap="round" />
+<line x1="126" y1="88" x2="136" y2="112" stroke="#4a6fa5" stroke-width="9" stroke-linecap="round" />
+<rect x="102" y="98" width="38" height="25" rx="2" fill="#fbfaf6" />
+<path d="M109 115 q8 -10 16 -2 t10 -4" fill="none" stroke="#2f7f73" stroke-width="2" stroke-linecap="round" />
+<circle cx="107" cy="115" r="5" fill="#e8b48a" />
+<circle cx="137" cy="115" r="5" fill="#e8b48a" />
+<rect x="188" y="70" width="8" height="12" fill="#c98d63" />
+<rect x="176" y="80" width="32" height="50" rx="12" fill="#d9a441" />
+<rect x="180" y="132" width="10" height="42" rx="4" fill="#4a4740" />
+<rect x="194" y="132" width="10" height="42" rx="4" fill="#4a4740" />
+<rect x="178" y="171" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="193" y="171" width="13" height="7" rx="3" fill="#2b2a27" />
+<circle cx="192" cy="40" r="7" fill="#1c1b18" />
+<circle cx="192" cy="58" r="15" fill="#c98d63" />
+<path d="M176 59 A16 16 0 0 1 208 59 Q192 47 176 59 Z" fill="#1c1b18" />
+<line x1="176" y1="90" x2="146" y2="106" stroke="#d9a441" stroke-width="9" stroke-linecap="round" />
+<circle cx="143" cy="107" r="5" fill="#c98d63" />
+<line x1="208" y1="90" x2="212" y2="124" stroke="#d9a441" stroke-width="9" stroke-linecap="round" />
+<circle cx="212" cy="127" r="5" fill="#c98d63" />
+</svg>
