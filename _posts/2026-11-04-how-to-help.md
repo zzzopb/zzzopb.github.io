@@ -4,6 +4,7 @@ title: 遇到视障人士，怎么帮才不添乱
 date: 2026-11-04 09:20:00 +0800
 categories: vision
 order: 3
+audience: both
 summary: 先问再帮，递手肘不拉手，走在半步前，遇到台阶和门先说一声。
 reading: 6
 ---

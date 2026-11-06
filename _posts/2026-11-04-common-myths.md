@@ -4,6 +4,7 @@ title: 关于视障，最常见的六个误解
 date: 2026-11-04 09:10:00 +0800
 categories: vision
 order: 2
+audience: both
 summary: 拿盲杖却在看手机是装的吗？跟盲人说"看"会冒犯吗？导盲犬能不能摸？
 reading: 5
 ---

@@ -16,6 +16,7 @@ layout: default
       {% if page.updated %} · 更新于 <time datetime="{{ page.updated | date: '%Y-%m-%d' }}">{{ page.updated | date: '%Y 年 %-m 月 %-d 日' }}</time>{% endif %}
       {% if page.reading %} · 阅读约 {{ page.reading }} 分钟{% endif %}
     </p>
+    {% if page.audience %}<p class="aud-row"><span class="aud aud-{{ page.audience }}">{{ site.audiences[page.audience] }}</span></p>{% endif %}
   </header>
   {{ content }}
   <aside class="post-foot" aria-label="说明">

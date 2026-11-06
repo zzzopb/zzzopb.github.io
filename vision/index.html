@@ -7,12 +7,14 @@ summary: 关于盲人与低视力人士的科普：视障是什么、常见误�
   <nav class="crumbs" aria-label="当前位置"><a href="{{ '/' | relative_url }}">首页</a> <span aria-hidden="true">›</span> <span>视障</span></nav>
   <h1>视障</h1>
   <p class="lede">「视障」包括完全看不见的盲人，也包括还有一部分视力、但戴眼镜也矫正不过来的低视力人士。</p>
+  <p>两类人的需求差别很大：全盲的人主要靠读屏软件、盲杖和盲文，低视力的人很多还在用眼睛，靠放大、高对比和大字。所以每篇文章都标了它主要讲哪一类。</p>
   <p>建议从第一篇开始读：</p>
   <ul class="post-list">
     {% assign ps = site.categories.vision | sort: "order" %}
     {% for p in ps %}
     <li>
       <a class="pl-title" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      {% if p.audience %}<span class="aud aud-{{ p.audience }}">{{ site.audiences[p.audience] }}</span>{% endif %}
       {% if p.summary %}<span class="pl-sum">{{ p.summary }}</span>{% endif %}
     </li>
     {% endfor %}

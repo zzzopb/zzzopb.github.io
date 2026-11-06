@@ -4,6 +4,7 @@ title: 导盲犬：全国只有 400 多只在工作
 date: 2026-11-04 09:40:00 +0800
 categories: vision
 order: 5
+audience: both
 summary: 培养一只导盲犬通常要花 20 多万元，很多人排队等待。法律规定公共场所和交通工具应当为它们提供便利。
 reading: 4
 ---

@@ -4,6 +4,7 @@ title: 视障是什么：不只是"看不见"
 date: 2026-11-04 09:00:00 +0800
 categories: vision
 order: 1
+audience: both
 summary: 视障包括盲和低视力两大类。很多视障者其实还有一部分视力，只是戴上眼镜也矫正不过来。
 reading: 5
 ---
