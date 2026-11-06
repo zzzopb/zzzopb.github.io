@@ -95,6 +95,13 @@ main:focus { outline: none; }
 .card.live a::after { content: " →"; }
 .card .soon { display: inline-block; margin-top: 0.4rem; font-size: 0.8rem; color: var(--muted); border: 1px dashed var(--line); padding: 0 0.4rem; border-radius: 0.3rem; }
 
+/* 适用人群标签：全盲 / 低视力 / 都适用 */
+.aud-row { margin: 0.4rem 0 0; }
+.aud { display: inline-block; font-size: 0.82rem; line-height: 1.6; padding: 0 0.6em; border-radius: 999px; border: 1px solid var(--line); color: var(--text); background: var(--surface); }
+.post-list .aud { margin: 0.15rem 0; }
+.aud-blind { border-color: var(--accent); }
+.aud-lowvision { border-style: dashed; border-color: var(--accent); }
+
 /* 首页街景：每个栏目是街上的一个人，点头顶的名牌进入栏目 */
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .street { background: var(--accent-soft); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); overflow-x: auto; }

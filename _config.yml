@@ -49,3 +49,9 @@ sections:
 exclude:
   - README.md
   - WRITING_GUIDE.md
+
+# 视障文章的适用人群标签（文章信息块里写 audience: blind / lowvision / both）
+audiences:
+  blind: 主要讲全盲
+  lowvision: 主要讲低视力
+  both: 全盲和低视力都适用

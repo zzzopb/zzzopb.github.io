@@ -4,6 +4,7 @@ title: 看不见，怎么用手机？
 date: 2026-11-04 09:30:00 +0800
 categories: vision
 order: 4
+audience: blind
 summary: 手机自带的读屏软件会把屏幕"念"出来，视障者靠手势就能聊天、购物、打车。
 reading: 5
 ---

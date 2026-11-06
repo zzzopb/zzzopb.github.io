@@ -35,6 +35,7 @@ title: 文章标题
 date: YYYY-MM-DD 09:00:00 +0800
 categories: vision        # 栏目英文名，和 _config.yml 里的 key 一致
 order: 6                  # 在栏目目录页里的顺序
+audience: both            # 仅视障栏目：blind（主要讲全盲）/ lowvision（主要讲低视力）/ both（都适用）
 summary: 一两句话的摘要
 reading: 5                # 预计阅读分钟数
 ---
