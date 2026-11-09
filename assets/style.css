@@ -160,3 +160,30 @@ a.nameplate:hover { text-decoration: underline; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
 @media print { .site-header, .site-footer, .reader-tools, .more, .post-foot { display: none; } }
+
+/* 首页：标题放进街景的"天空"里，从页头下面就是一整条街 */
+.street { border-top: 0; }
+.street .hero { padding: 3rem 0 0.5rem; }
+.street .hero h1 { font-size: 2.5rem; }
+.street .hero p { color: var(--text); }
+.street-row { padding-top: 1rem; }
+@media (max-width: 600px) { .street .hero h1 { font-size: 1.8rem; } .street .hero { padding-top: 2rem; } }
+
+/* 盲道点缀：颜色取自插画里的盲道，只做装饰，不承载信息 */
+:root { --tactile: #e3b23c; --tactile-rib: #c4921f; }
+.section-title { border-bottom: 0; padding-bottom: 0.6rem; position: relative; }
+.section-title::after {
+  content: ""; position: absolute; left: 0; bottom: 0; width: 4.5rem; height: 0.45rem; border-radius: 2px;
+  background: repeating-linear-gradient(90deg, var(--tactile) 0 0.55rem, var(--tactile-rib) 0.55rem 0.7rem);
+}
+.section-list li { padding: 0.6rem 0.9rem; border-left: 4px solid var(--line); margin: 0.2rem 0; }
+.section-list li:has(a) { border-left-color: var(--accent); }
+.post-list li { padding: 1rem 0; }
+.pl-meta .pl-sec { display: inline-block; padding: 0 0.6em; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 600; margin-right: 0.3em; }
+/* 页脚上方一条"地面＋盲道"，像街道走到了尽头 */
+.site-footer { border-top: 0; background: var(--surface); position: relative; padding-top: 2.2rem; }
+.site-footer::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 0.9rem; background: var(--line); }
+.site-footer::after {
+  content: ""; position: absolute; left: 8%; width: 30%; top: 0.15rem; height: 0.6rem;
+  background: repeating-linear-gradient(90deg, var(--tactile) 0 0.6rem, var(--tactile-rib) 0.6rem 0.75rem);
+}
