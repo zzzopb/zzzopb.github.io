@@ -1,0 +1,33 @@
+# 每次 main 更新后，用和 GitHub Pages 相同的方式生成网页，
+# 把生成好的静态文件放到 dist 分支。国内服务器（pingshi.net）定时从 dist 分支拉取。
+name: build-dist
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: build-dist
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 生成网页（和 GitHub Pages 同一个构建器）
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: 推送到 dist 分支
+        run: |
+          cd _site
+          sudo chown -R "$(id -u)" .
+          touch .nojekyll
+          git init -q -b dist
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+          git add -A
+          git commit -q -m "构建 ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" dist
