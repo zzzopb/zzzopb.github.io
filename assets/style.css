@@ -187,3 +187,11 @@ a.nameplate:hover { text-decoration: underline; }
   content: ""; position: absolute; left: 8%; width: 30%; top: 0.15rem; height: 0.6rem;
   background: repeating-linear-gradient(90deg, var(--tactile) 0 0.6rem, var(--tactile-rib) 0.6rem 0.75rem);
 }
+
+/* 文中的出处编号：小号上标，点一下跳到文末对应的那一条 */
+.ref { font-size: 0.72em; line-height: 0; }
+.ref a { text-decoration: none; padding: 0 0.2em; font-weight: 600; }
+.ref a::before { content: "["; } .ref a::after { content: "]"; }
+ol.sources { padding-left: 1.4rem; }
+ol.sources li { margin: 0.5rem 0; scroll-margin-top: 6rem; }
+ol.sources li:target { background: var(--accent-soft); outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
