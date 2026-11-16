@@ -1,6 +1,6 @@
 # 平视
 
-特殊人群科普网站，网址：https://zzzopb.github.io
+介绍多元群体的科普网站，网址：https://zzzopb.github.io
 
 ## 文件说明（不用懂代码也能看）
 

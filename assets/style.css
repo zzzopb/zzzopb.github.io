@@ -195,3 +195,10 @@ a.nameplate:hover { text-decoration: underline; }
 ol.sources { padding-left: 1.4rem; }
 ol.sources li { margin: 0.5rem 0; scroll-margin-top: 6rem; }
 ol.sources li:target { background: var(--accent-soft); outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
+
+/* 视障页的"相处小贴士" */
+.tips { background: var(--accent-soft); border-left: 6px solid var(--accent); border-radius: 0; padding: 0.9rem 1.2rem; margin: 1.5rem 0; }
+.tips h2 { margin: 0 0 0.4rem; font-size: 1.15rem; }
+.tips ul { margin: 0; padding-left: 1.3rem; }
+.tips li { margin: 0.25rem 0; }
+.tips-more { margin: 0.6rem 0 0; font-size: 0.92rem; }
