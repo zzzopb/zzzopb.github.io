@@ -2,91 +2,96 @@
 layout: default
 title: 可以去哪里问
 permalink: /help/
-summary: 办证、补贴、康复、维权，不知道该找谁时可以打的官方电话，按省份列出。
+summary: 办证、补贴、康复、维权，不知道该找谁时可以打的官方电话，按地区列出。
 published: false
 ---
 <div class="wrap prose" markdown="1">
 
 # 可以去哪里问
 
-办残疾人证、问补贴和康复、想反映问题，却不知道该找谁？这一页按省份列出各地残联公开的联系方式。
+办残疾人证、问补贴和康复、想反映问题，却不知道该找谁？这一页列出全国热线和各地残联公开的联系方式。
 
-<p class="note">下面都是官方公开发布的渠道。平视是个人科普网站，<strong>不是这些机构的合作方，不代为转达，也不提供个案咨询</strong>。号码最后核对于 2026 年 11 月 17 日，核对的是官方网页上的原文，没有逐个拨打。电话可能变更，如果你发现哪个打不通，请告诉我们。</p>
+<p class="note">下面都是官方公开发布的渠道。平视是个人科普网站，<strong>不是这些机构的合作方，不代为转达，也不提供个案咨询</strong>。号码最后核对于 2026 年 11 月 17 日，核对的是官方网页上的原文，没有逐个拨打。电话可能变更，如果你发现哪个打不通，请发邮件告诉我们：<a href="mailto:pingshi2026@163.com">pingshi2026@163.com</a>。</p>
 
-## 不知道找谁，先打这两个
+## 全国热线 {#quanguo}
 
 - **12345**：各地的政务服务便民热线。你所在的城市哪个部门管你的事，它可以帮你转过去。<sup class="ref"><a href="#src-1" aria-label="出处 1">1</a></sup>
 - **12385**：全国残疾人服务热线，中国残联官网首页至今标着“服务热线：12385”。<sup class="ref"><a href="#src-2" aria-label="出处 2">2</a></sup> 按 2015 年的建设方案，它受理政策咨询、投诉请求、意见建议和生活帮助，拨本地的 12385 接到的是当地的热线。<sup class="ref"><a href="#src-3" aria-label="出处 3">3</a></sup>
 
-这两个号码的关系是：国务院办公厅 2020 年 12 月的文件要求 12385“保留号码，将话务座席并入 12345 热线统一管理”。<sup class="ref"><a href="#src-1" aria-label="出处 1">1</a></sup> 各省落实的做法不一样，有的保留 12385 并设专门座席，有的在文件里写的是并入 12345 后取消号码，下面能查到的都写在各省那一条里。
+国务院办公厅 2020 年 12 月的文件要求 12385“保留号码，将话务座席并入 12345 热线统一管理”。<sup class="ref"><a href="#src-1" aria-label="出处 1">1</a></sup> 各省落实的做法不一样，所以 **12385 打不通，就打 12345**，说明你要咨询残疾人相关的事。
 
-所以，**12385 打不通，就打 12345**，说明你要咨询残疾人相关的事。
+## 各地残联的电话
 
-## 各省残联的电话
+点地区的名字，展开看那里的省份。每个电话后面写了官方页面是怎么称呼它的，并附出处。
 
-这次一共查了 31 个省、自治区、直辖市：15 个查到了官方页面上的电话，16 个没有查到。没查到，多数是因为当地残联官网不允许程序读取，不代表那里没有电话；每一条最后都有官网链接，可以自己打开看，也可以先打 12345。
+<details class="region">
+<summary><span class="region-name">华北</span><span class="region-list">北京、天津</span></summary>
+<ul>
+<li><strong>北京</strong>：12385、64686805。市残联辅助器具服务平台页脚标注的“残疾人服务热线”和“咨询监督直线”，页面没有标日期（<a href="http://fuju.bdpf.org.cn/help-44.dhtml">出处</a>）。<a href="http://www.bdpf.org.cn/">北京残联官网</a></li>
+<li><strong>天津</strong>：022-23926594。官网“联系我们”页的联系电话，页面是 2021 年的（<a href="http://www.tjdpf.org.cn/system/2021/08/03/030042595.shtml">出处</a>）。<a href="http://www.tjdpf.org.cn/">天津残联官网</a></li>
+</ul>
+</details>
 
-每个电话后面写了官方页面是怎么称呼它的。有的是专门的咨询热线，有的只是办公室电话，接电话的人不一定能直接解答，但可以告诉你该找谁。
+<details class="region">
+<summary><span class="region-name">东北</span><span class="region-list">辽宁、吉林、黑龙江</span></summary>
+<ul>
+<li><strong>辽宁</strong>：024-82619170、024-82619187。省政务服务网“业务咨询电话”里列的省残联电话，工作日工作时间拨打（<a href="https://www.lnzwfw.gov.cn/wyw/rxdh/">出处</a>）。沈阳的详细渠道见<a href="{{ '/vision/where-to-ask-shenyang/' | relative_url }}">《在沈阳，视障相关的事可以去哪里问》</a>。<a href="http://www.lncl.org.cn/">辽宁残联官网</a></li>
+<li><strong>吉林</strong>：0431-88905871。省残联办公室的联系电话，出自 2021 年 2 月的信息公开指南；办公时间周一至周五 8:30–11:30、13:30–17:00（<a href="http://xxgk.jl.gov.cn/qtdw/jgsw_98202/gkzn/">出处</a>）。<a href="http://www.jldpf.org.cn/">吉林残联官网</a></li>
+<li><strong>黑龙江</strong>：0451-58775656。官网“部门职责”页上办公室的联系电话（<a href="https://www.hljcl.org.cn/c/zcgwmh/bmzz.jhtml">出处</a>）。12385：2021 年 5 月省残联表示要确保 12385 全天 24 小时畅通（<a href="http://epaper.hljnews.cn/hljrb/pc/con/202105/14/content_27042.html">黑龙江日报</a>），现在是否仍是这样没有查到。<a href="https://www.hljcl.org.cn/">黑龙江残联官网</a></li>
+</ul>
+</details>
 
-### 华北
+<details class="region">
+<summary><span class="region-name">华东</span><span class="region-list">上海、江苏、浙江</span></summary>
+<ul>
+<li><strong>上海</strong>：(021)12385。“一网通办”上市残联办事指南写的“电话咨询”号码（<a href="https://zwdt.sh.gov.cn/govPortals/bsfw/item/33975532-88ed-4f26-a5ed-f3659bf7710b">出处</a>）。<a href="https://www.shdpf.org.cn/clwz/clwz/index.html">上海残联官网</a></li>
+<li><strong>江苏</strong>：025-86533148。官网首页标注的“维权电话”，由维权处负责来信来访（<a href="https://www.jscl.gov.cn/">出处</a>）。<a href="https://www.jscl.gov.cn/">江苏残联官网</a></li>
+<li><strong>浙江</strong>：0571-88837533。官网信息公开指南里的“咨询联系方式”，页面最近更新于 2023 年 1 月（<a href="https://www.zjdpf.org.cn/col/col1229461018/index.html">出处</a>）。12385：2021 年省政府文件把它列为“双号并行”，由省残联设专家座席。<a href="http://www.zjdpf.org.cn/">浙江残联官网</a></li>
+</ul>
+</details>
 
-- **北京**：12385、64686805。市残联辅助器具服务平台页脚标注的“残疾人服务热线”和“咨询监督直线”，页面没有标日期（<a href="http://fuju.bdpf.org.cn/help-44.dhtml">出处</a>）。<a href="http://www.bdpf.org.cn/">北京残联官网</a>
-- **天津**：022-23926594。官网“联系我们”页的联系电话，页面是 2021 年的（<a href="http://www.tjdpf.org.cn/system/2021/08/03/030042595.shtml">出处</a>）。<a href="http://www.tjdpf.org.cn/">天津残联官网</a>
-- **河北**：这次没有查到可以核对的电话。<a href="https://www.hebcl.org.cn/">河北残联官网</a>
-- **山西**：这次没有查到可以核对的电话。<a href="http://www.sxdpf.org.cn/">山西残联官网</a>
-- **内蒙古**：这次没有查到可以核对的电话。<a href="http://www.nmgcl.org.cn/">内蒙古残联官网</a>
+<details class="region">
+<summary><span class="region-name">华中</span><span class="region-list">河南、湖北</span></summary>
+<ul>
+<li><strong>河南</strong>：0371-60856000。官网页脚和“联系我们”页标注的电话，没有写是哪个部门（<a href="https://www.henancjr.org.cn/info?mid=342">出处</a>）。<a href="http://www.henancjr.org.cn/">河南残联官网</a></li>
+<li><strong>湖北</strong>：027-87825819。官网首页标注的“咨询热线”（<a href="http://www.hbdpf.org.cn/">出处</a>）。<a href="http://www.hbdpf.org.cn/">湖北残联官网</a></li>
+</ul>
+</details>
 
-### 东北
+<details class="region">
+<summary><span class="region-name">华南</span><span class="region-list">广东</span></summary>
+<ul>
+<li><strong>广东</strong>：020-83275639。省残联维权部的电话；2025 年 6 月的接访公告把它列为“咨询（预约）电话”，时间 8:30–12:00、14:30–17:30（<a href="http://www.gddpf.org.cn/xxgk/ggtz/content/post_1294485.html">出处</a>）。12385：省残联 2017 年 2 月称，全省 21 个地级以上市都已把 12385 并入 12345 接听（<a href="http://www.gddpf.org.cn/xwzx/gzdt/content/post_569338.html">省残联官网</a>）。<a href="http://www.gddpf.org.cn/">广东残联官网</a></li>
+</ul>
+</details>
 
-- **辽宁**：024-82619170、024-82619187。省政务服务网“业务咨询电话”里列的省残联电话，工作日工作时间拨打（<a href="https://www.lnzwfw.gov.cn/wyw/rxdh/">出处</a>）。沈阳的详细渠道见<a href="{{ '/vision/where-to-ask-shenyang/' | relative_url }}">《在沈阳，视障相关的事可以去哪里问》</a>。<a href="http://www.lncl.org.cn/">辽宁残联官网</a>
-- **吉林**：0431-88905871。省残联办公室的联系电话，出自 2021 年 2 月的信息公开指南；办公时间周一至周五 8:30–11:30、13:30–17:00（<a href="http://xxgk.jl.gov.cn/qtdw/jgsw_98202/gkzn/">出处</a>）。<a href="http://www.jldpf.org.cn/">吉林残联官网</a>
-- **黑龙江**：0451-58775656。官网“部门职责”页上办公室的联系电话（<a href="https://www.hljcl.org.cn/c/zcgwmh/bmzz.jhtml">出处</a>）。12385：2021 年 5 月省残联表示要确保 12385 全天 24 小时畅通（<a href="http://epaper.hljnews.cn/hljrb/pc/con/202105/14/content_27042.html">黑龙江日报</a>），现在是否仍是这样没有查到。<a href="https://www.hljcl.org.cn/">黑龙江残联官网</a>
+<details class="region">
+<summary><span class="region-name">西南</span><span class="region-list">重庆</span></summary>
+<ul>
+<li><strong>重庆</strong>：023-63651234、12345（12385）。官网页脚标注的“残疾人政策咨询/维权热线”（<a href="https://www.cqdpf.org.cn/">出处</a>）。<a href="http://www.cqdpf.org.cn/">重庆残联官网</a></li>
+</ul>
+</details>
 
-### 华东
+<details class="region">
+<summary><span class="region-name">西北</span><span class="region-list">甘肃、宁夏、新疆</span></summary>
+<ul>
+<li><strong>甘肃</strong>：0931-8850366。官网首页标注的“维权电话”（<a href="https://gsdpf.org.cn/">出处</a>）。12385：2021 年省政府的方案把它列进“取消号码、并入 12345”的清单，是否已经执行没有查到。<a href="http://www.gsdpf.org.cn/">甘肃残联官网</a></li>
+<li><strong>宁夏</strong>：0951-5668813。官网“单位简介”页和页脚标注的联系电话（<a href="https://www.ndpf.org.cn/dwgk/gkdwjj/">出处</a>）。12385：2025 年 12 月的《宁夏残联信息》提到，银川市残联仍在受理 12385 来电。<a href="https://www.ndpf.org.cn/">宁夏残联官网</a></li>
+<li><strong>新疆</strong>：0991-4800081。2024 年自治区司法厅和残联联合文件里写的“自治区残联联系电话”（<a href="https://sft.xinjiang.gov.cn/xjsft/gzyw/202409/7fe115c7c5f84fcba547e245b6ba4599.shtml">出处</a>）。12385：2021 年自治区文件写的是保留号码，座席并入各地州市的 12345 统一管理。<a href="http://www.xjdpf.org.cn/">新疆残联官网</a></li>
+</ul>
+</details>
 
-- **上海**：(021)12385。“一网通办”上市残联办事指南写的“电话咨询”号码（<a href="https://zwdt.sh.gov.cn/govPortals/bsfw/item/33975532-88ed-4f26-a5ed-f3659bf7710b">出处</a>）。<a href="https://www.shdpf.org.cn/clwz/clwz/index.html">上海残联官网</a>
-- **江苏**：025-86533148。官网首页标注的“维权电话”，由维权处负责来信来访（<a href="https://www.jscl.gov.cn/">出处</a>）。<a href="https://www.jscl.gov.cn/">江苏残联官网</a>
-- **浙江**：0571-88837533。官网信息公开指南里的“咨询联系方式”，页面最近更新于 2023 年 1 月（<a href="https://www.zjdpf.org.cn/col/col1229461018/index.html">出处</a>）。12385：2021 年省政府文件把它列为“双号并行”，由省残联设专家座席。<a href="http://www.zjdpf.org.cn/">浙江残联官网</a>
-- **安徽**：这次没有查到可以核对的电话。<a href="http://www.ahdpf.org.cn/">安徽残联官网</a>
-- **福建**：这次没有查到可以核对的电话。12385：2021 年省政府文件写的是“保留号码，取消话务座席，由 12345 热线统一接听”（<a href="https://zfgb.fujian.gov.cn/9551">福建省人民政府公报</a>）。<a href="http://www.1203.org/">福建残联官网</a>
-- **江西**：这次没有查到可以核对的电话。<a href="http://www.jxdpf.gov.cn/">江西残联官网</a>
-- **山东**：这次没有查到可以核对的电话。官网上能找到的联系电话，页面是 2012 年和 2018 年的，太旧，所以没有列。官网提示办事可以用“爱山东”App 里的助残专区。<a href="http://www.sddpf.org.cn/">山东残联官网</a>
+## 待核对的地区 {#daihedui}
 
-### 华中
+下面这些地区的电话我们还没有核对到，暂时请先打<a href="#quanguo">全国热线</a>。点名字可以打开当地残联的官网：
 
-- **河南**：0371-60856000。官网页脚和“联系我们”页标注的电话，没有写是哪个部门（<a href="https://www.henancjr.org.cn/info?mid=342">出处</a>）。<a href="http://www.henancjr.org.cn/">河南残联官网</a>
-- **湖北**：027-87825819。官网首页标注的“咨询热线”（<a href="http://www.hbdpf.org.cn/">出处</a>）。<a href="http://www.hbdpf.org.cn/">湖北残联官网</a>
-- **湖南**：这次没有查到可以核对的电话。只找到 2018 年文件里的电话，太旧，所以没有列。<a href="http://www.hndpf.org/">湖南残联官网</a>
+<p class="pending-list"><a href="https://www.hebcl.org.cn/">河北</a>、<a href="http://www.sxdpf.org.cn/">山西</a>、<a href="http://www.nmgcl.org.cn/">内蒙古</a>、<a href="http://www.ahdpf.org.cn/">安徽</a>、<a href="http://www.1203.org/">福建</a>、<a href="http://www.jxdpf.gov.cn/">江西</a>、<a href="http://www.sddpf.org.cn/">山东</a>、<a href="http://www.hndpf.org/">湖南</a>、<a href="http://www.gxdpf.org.cn/">广西</a>、<a href="http://www.hidpf.org.cn/">海南</a>、<a href="http://www.scdpf.org.cn/">四川</a>、<a href="http://www.gzsdpf.org.cn/hdcy/rxdh/">贵州</a>、<a href="https://www.yncl.org.cn/">云南</a>、<a href="https://dpf.xzdw.gov.cn/">西藏</a>、<a href="http://www.sndpf.cn/f/">陕西</a>、<a href="https://www.qhcl.org.cn/">青海</a></p>
 
-### 华南
-
-- **广东**：020-83275639。省残联维权部的电话；2025 年 6 月的接访公告把它列为“咨询（预约）电话”，时间 8:30–12:00、14:30–17:30（<a href="http://www.gddpf.org.cn/xxgk/ggtz/content/post_1294485.html">出处</a>）。12385：省残联 2017 年 2 月称，全省 21 个地级以上市都已把 12385 并入 12345 接听（<a href="http://www.gddpf.org.cn/xwzx/gzdt/content/post_569338.html">省残联官网</a>）。<a href="http://www.gddpf.org.cn/">广东残联官网</a>
-- **广西**：这次没有查到可以核对的电话。<a href="http://www.gxdpf.org.cn/">广西残联官网</a>
-- **海南**：这次没有查到可以核对的电话。只找到一个残疾人就业保障金的咨询电话，用途太窄，所以没有列。12385：2016 年 9 月在海南开通（<a href="http://news.hndaily.cn/html/2016-09/09/content_10_2.htm">海南日报</a>）。<a href="http://www.hidpf.org.cn/">海南残联官网</a>
-
-### 西南
-
-- **重庆**：023-63651234、12345（12385）。官网页脚标注的“残疾人政策咨询/维权热线”（<a href="https://www.cqdpf.org.cn/">出处</a>）。<a href="http://www.cqdpf.org.cn/">重庆残联官网</a>
-- **四川**：这次没有查到可以核对的电话。<a href="http://www.scdpf.org.cn/">四川残联官网</a>
-- **贵州**：这次没有查到可以核对的电话。官网有一页“热线电话”，可以直接打开看：<a href="http://www.gzsdpf.org.cn/hdcy/rxdh/">贵州省残联热线电话</a>。<a href="http://www.gzsdpf.org.cn/">贵州残联官网</a>
-- **云南**：这次没有查到可以核对的电话。<a href="https://www.yncl.org.cn/">云南残联官网</a>
-- **西藏**：这次没有查到可以核对的电话。只找到专项工作的举报电话和一场招聘会的咨询电话，都不是常设的咨询电话，所以没有列。<a href="https://dpf.xzdw.gov.cn/">西藏残联官网</a>
-
-### 西北
-
-- **陕西**：这次没有查到可以核对的电话。<a href="http://www.sndpf.cn/f/">陕西残联官网</a>
-- **甘肃**：0931-8850366。官网首页标注的“维权电话”（<a href="https://gsdpf.org.cn/">出处</a>）。12385：2021 年省政府的方案把它列进“取消号码、并入 12345”的清单，是否已经执行没有查到。<a href="http://www.gsdpf.org.cn/">甘肃残联官网</a>
-- **青海**：这次没有查到可以核对的电话。<a href="https://www.qhcl.org.cn/">青海残联官网</a>
-- **宁夏**：0951-5668813。官网“单位简介”页和页脚标注的联系电话（<a href="https://www.ndpf.org.cn/dwgk/gkdwjj/">出处</a>）。12385：2025 年 12 月的《宁夏残联信息》提到，银川市残联仍在受理 12385 来电。<a href="https://www.ndpf.org.cn/">宁夏残联官网</a>
-- **新疆**：0991-4800081。2024 年自治区司法厅和残联联合文件里写的“自治区残联联系电话”（<a href="https://sft.xinjiang.gov.cn/xjsft/gzyw/202409/7fe115c7c5f84fcba547e245b6ba4599.shtml">出处</a>）。12385：2021 年自治区文件写的是保留号码，座席并入各地州市的 12345 统一管理。<a href="http://www.xjdpf.org.cn/">新疆残联官网</a>
-
-港澳台的制度不同，这一页暂时没有包括。
+如果你知道其中某个地区的官方电话，欢迎发邮件到 <a href="mailto:pingshi2026@163.com">pingshi2026@163.com</a>，附上你看到它的网页，我们核对后补上。港澳台的制度不同，这一页暂时没有包括。
 
 ## 城市详细页
 
 - [在沈阳，视障相关的事可以去哪里问]({{ '/vision/where-to-ask-shenyang/' | relative_url }})
-
-其他城市我们会在能核实的时候再加。
 
 ## 平视想说的
 
@@ -96,11 +101,11 @@ published: false
 
 ## 出处
 
-每个省的电话后面都有“出处”链接，点开就是我们看到这个号码的官方页面。下面是全国层面的出处，文中的小数字对应这里的编号。
+每个电话后面都有“出处”链接，点开就是我们看到这个号码的官方页面。下面是全国层面的出处，文中的小数字对应这里的编号。
 
 <ol class="sources">
 <li id="src-1">《国务院办公厅关于进一步优化地方政务服务便民热线的指导意见》（国办发〔2020〕53 号），2020 年 12 月 28 日。讲了各地热线怎么归并到 12345，附件把 12385 列为“双号并行”。<a href="https://www.gov.cn/zhengce/content/2021-01/06/content_5577419.htm">原文</a></li>
-<li id="src-2">中国残疾人联合会官网首页。页眉标注了服务热线 12385，页面上还有 31 个省级残联官网的链接，本页各省的官网网址都取自这里。<a href="https://www.cdpf.org.cn/">原文</a></li>
+<li id="src-2">中国残疾人联合会官网首页。页眉标注了服务热线 12385，页面上还有 31 个省级残联官网的链接，本页的官网网址都取自这里。<a href="https://www.cdpf.org.cn/">原文</a></li>
 <li id="src-3">中国残联办公厅 2015 年 3 月印发的《全国残疾人服务热线 12385 建设方案》（残联发〔2015〕7 号），中国政府网转载。讲了 12385 受理哪些事项、各级热线怎么接通。<a href="https://www.gov.cn/zhuanti/2021-03/30/content_5650101.htm">原文</a></li>
 </ol>
 

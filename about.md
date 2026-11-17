@@ -48,7 +48,7 @@ summary: 平视是什么、我们怎么写、信息从哪里来。
 
 ## 纠错与建议
 
-写错了、说法不妥、有更好的资料？非常欢迎指出。你可以在 GitHub 上<a href="https://github.com/zzzopb/zzzopb.github.io/issues">留言</a>，我们会尽快核实、修改，并在文章里注明更新日期。
+写错了、说法不妥、有更好的资料？非常欢迎指出。你可以发邮件到 <a href="mailto:pingshi2026@163.com">pingshi2026@163.com</a>，或者在 GitHub 上<a href="https://github.com/zzzopb/zzzopb.github.io/issues">留言</a>，我们会尽快核实、修改，并在文章里注明更新日期。
 
 ## 无障碍
 
