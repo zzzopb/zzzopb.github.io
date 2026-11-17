@@ -3,7 +3,6 @@ layout: default
 title: 可以去哪里问
 permalink: /help/
 summary: 办证、补贴、康复、维权，不知道该找谁时可以打的官方电话，按地区列出。
-published: false
 ---
 <div class="wrap prose" markdown="1">
 
@@ -11,7 +10,7 @@ published: false
 
 办残疾人证、问补贴和康复、想反映问题，却不知道该找谁？这一页列出全国热线和各地残联公开的联系方式。
 
-<p class="note">下面都是官方公开发布的渠道。平视是个人科普网站，<strong>不是这些机构的合作方，不代为转达，也不提供个案咨询</strong>。号码最后核对于 2026 年 11 月 17 日，核对的是官方网页上的原文，没有逐个拨打。电话可能变更，如果你发现哪个打不通，请发邮件告诉我们：<a href="mailto:pingshi2026@163.com">pingshi2026@163.com</a>。</p>
+<p class="note">下面都是官方公开发布的渠道。平视是个人科普网站，<strong>不是这些机构的合作方，不代为转达，也不提供个案咨询</strong>。号码最后核对于 2026 年 11 月 17 日，核对的是官方网页上的原文，没有逐个拨打。电话可能变更，如果你发现哪个打不通，请告诉我们，留言方式在页面最下方。</p>
 
 ## 全国热线 {#quanguo}
 
@@ -87,7 +86,7 @@ published: false
 
 <p class="pending-list"><a href="https://www.hebcl.org.cn/">河北</a>、<a href="http://www.sxdpf.org.cn/">山西</a>、<a href="http://www.nmgcl.org.cn/">内蒙古</a>、<a href="http://www.ahdpf.org.cn/">安徽</a>、<a href="http://www.1203.org/">福建</a>、<a href="http://www.jxdpf.gov.cn/">江西</a>、<a href="http://www.sddpf.org.cn/">山东</a>、<a href="http://www.hndpf.org/">湖南</a>、<a href="http://www.gxdpf.org.cn/">广西</a>、<a href="http://www.hidpf.org.cn/">海南</a>、<a href="http://www.scdpf.org.cn/">四川</a>、<a href="http://www.gzsdpf.org.cn/hdcy/rxdh/">贵州</a>、<a href="https://www.yncl.org.cn/">云南</a>、<a href="https://dpf.xzdw.gov.cn/">西藏</a>、<a href="http://www.sndpf.cn/f/">陕西</a>、<a href="https://www.qhcl.org.cn/">青海</a></p>
 
-如果你知道其中某个地区的官方电话，欢迎发邮件到 <a href="mailto:pingshi2026@163.com">pingshi2026@163.com</a>，附上你看到它的网页，我们核对后补上。港澳台的制度不同，这一页暂时没有包括。
+如果你知道其中某个地区的官方电话，欢迎通过页面最下方的留言方式告诉我们，附上你看到它的网页，我们核对后补上。港澳台的制度不同，这一页暂时没有包括。
 
 ## 城市详细页
 

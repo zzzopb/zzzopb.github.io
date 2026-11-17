@@ -10,6 +10,7 @@
         {% for s in site.sections %}{% if s.live %}
         <li><a href="{{ '/' | append: s.key | append: '/' | relative_url }}"{% if page.url contains s.key %} aria-current="page"{% endif %}>{{ s.name }}</a></li>
         {% endif %}{% endfor %}
+        <li><a href="{{ '/help/' | relative_url }}"{% if page.url == '/help/' %} aria-current="page"{% endif %}>热线</a></li>
         <li><a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>关于</a></li>
       </ul>
     </nav>
