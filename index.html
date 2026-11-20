@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>平视</title>
+  <meta name="description" content="一个介绍多元群体的科普网站：用通俗、准确、尊重的方式，讲清楚不同人群的真实处境。">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>
+    // 在页面显示前就套用读者上次选的字号和配色，避免闪一下
+    try {
+      var fs = localStorage.getItem('pingshi-font');
+      if (fs) document.documentElement.setAttribute('data-font', fs);
+      var th = localStorage.getItem('pingshi-theme');
+      if (th) document.documentElement.setAttribute('data-theme', th);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <span class="brand-name">平视</span>
+      <span class="brand-tag">不俯视，不仰视，平等地认识彼此</span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <ul>
+        <li><a href="/" aria-current="page">首页</a></li>
+        
+        <li><a href="/vision/">视障</a></li>
+        
+        <li><a href="/help/">热线</a></li>
+        <li><a href="/about/">关于</a></li>
+      </ul>
+    </nav>
+    <div class="reader-tools" role="group" aria-label="阅读设置">
+      <button type="button" class="tool" data-font-step="-1" aria-label="缩小字号">A−</button>
+      <span class="font-now" id="font-now">字号：标准</span>
+      <button type="button" class="tool" data-font-step="1" aria-label="放大字号">A＋</button>
+      <span class="visually-hidden" id="font-say" aria-live="polite"></span>
+      <button type="button" class="tool" id="theme-toggle" aria-label="切换高对比度配色" aria-pressed="false">高对比</button>
+    </div>
+  </div>
+</header>
+
+  <main id="main" tabindex="-1">
+    <section class="street" aria-labelledby="street-title">
+  <div class="wrap street-hero">
+  <section class="hero" aria-labelledby="hero-title">
+    <h1 id="hero-title">同一条街上，<br>住着各种各样的人。</h1>
+    <p>「平视」是一个介绍多元群体的科普网站：不俯视，不仰视，平等地认识彼此。</p>
+    <p>点一下头顶的名牌，认识他们的日常。往右滑，看看街上还有谁。</p>
+  </section>
+</div>
+  <h2 class="visually-hidden" id="street-title">街景：各栏目入口</h2>
+  <ul class="street-row">
+    
+    <li class="stop live">
+      
+      <a class="nameplate" href="/vision/">视障人士 <span aria-hidden="true">→</span></a>
+      
+      <svg viewBox="0 0 320 200" role="img" aria-label="插画：一位视障者拿着盲杖站在盲道上，等人行横道的绿灯" class="scene" focusable="false">
+<rect x="0" y="172" width="320" height="28" fill="#d8d3c6" />
+<rect x="40" y="174" width="150" height="12" fill="#e3b23c" />
+<rect x="50" y="176" width="3" height="8" fill="#c4921f" />
+<rect x="64" y="176" width="3" height="8" fill="#c4921f" />
+<rect x="78" y="176" width="3" height="8" fill="#c4921f" />
+<rect x="92" y="176" width="3" height="8" fill="#c4921f" />
+<rect x="106" y="176" width="3" height="8" fill="#c4921f" />
+<rect x="120" y="176" width="3" height="8" fill="#c4921f" />
+<rect x="134" y="176" width="3" height="8" fill="#c4921f" />
+<rect x="148" y="176" width="3" height="8" fill="#c4921f" />
+<rect x="162" y="176" width="3" height="8" fill="#c4921f" />
+<rect x="176" y="176" width="3" height="8" fill="#c4921f" />
+<rect x="200" y="172" width="120" height="28" fill="#6b675e" />
+<rect x="208" y="176" width="12" height="22" fill="#fbfaf6" />
+<rect x="232" y="176" width="12" height="22" fill="#fbfaf6" />
+<rect x="256" y="176" width="12" height="22" fill="#fbfaf6" />
+<rect x="280" y="176" width="12" height="22" fill="#fbfaf6" />
+<rect x="304" y="176" width="12" height="22" fill="#fbfaf6" />
+<rect x="272" y="70" width="6" height="104" fill="#4a4740" />
+<rect x="262" y="38" width="26" height="46" rx="5" fill="#1c1b18" />
+<circle cx="275" cy="52" r="7" fill="#5a3a36" />
+<circle cx="275" cy="71" r="7" fill="#5cc08a" />
+<line x1="95" y1="90" x2="91" y2="128" stroke="#2f7f73" stroke-width="9" stroke-linecap="round" />
+<rect x="98" y="130" width="10" height="48" rx="4" fill="#3b4a5c" />
+<rect x="112" y="130" width="10" height="48" rx="4" fill="#3b4a5c" />
+<rect x="96" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="111" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="106" y="72" width="8" height="12" fill="#c98d63" />
+<rect x="93" y="82" width="34" height="54" rx="13" fill="#2f7f73" />
+<circle cx="110" cy="60" r="15" fill="#c98d63" />
+<path d="M94 61 A16 16 0 0 1 126 61 Q110 49 94 61 Z" fill="#2b2a27" />
+<circle cx="91" cy="131" r="5" fill="#c98d63" />
+<line x1="138" y1="123" x2="182" y2="178" stroke="#1c1b18" stroke-width="5" stroke-linecap="round" />
+<line x1="139" y1="124" x2="176" y2="171" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+<line x1="125" y1="90" x2="136" y2="120" stroke="#2f7f73" stroke-width="9" stroke-linecap="round" />
+<circle cx="138" cy="123" r="5" fill="#c98d63" />
+</svg>
+
+      
+    </li>
+    
+    <li class="stop">
+      
+      <span class="nameplate soon">听障人士 · 筹备中</span>
+      
+      <svg viewBox="0 0 320 200" role="img" aria-label="插画：两位朋友在咖啡馆里用手语聊天" class="scene" focusable="false">
+<rect x="0" y="176" width="320" height="24" fill="#d8d3c6" />
+<rect x="120" y="22" width="80" height="56" rx="4" fill="#b8d6cf" />
+<rect x="158" y="22" width="4" height="56" fill="#fbfaf6" />
+<rect x="120" y="48" width="80" height="4" fill="#fbfaf6" />
+<rect x="128" y="118" width="64" height="8" rx="3" fill="#8a6a4a" />
+<rect x="156" y="126" width="8" height="50" fill="#8a6a4a" />
+<rect x="140" y="106" width="10" height="12" rx="2" fill="#fbfaf6" />
+<rect x="170" y="106" width="10" height="12" rx="2" fill="#c46a4a" />
+<rect x="72" y="56" width="32" height="32" rx="10" fill="#5a3a24" />
+<rect x="76" y="130" width="10" height="48" rx="4" fill="#4a6fa5" />
+<rect x="90" y="130" width="10" height="48" rx="4" fill="#4a6fa5" />
+<rect x="74" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="89" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="84" y="72" width="8" height="12" fill="#f1c9a5" />
+<rect x="71" y="82" width="34" height="54" rx="13" fill="#d9a441" />
+<circle cx="88" cy="60" r="15" fill="#f1c9a5" />
+<path d="M72 61 A16 16 0 0 1 104 61 Q88 49 72 61 Z" fill="#5a3a24" />
+<line x1="104" y1="92" x2="122" y2="78" stroke="#d9a441" stroke-width="9" stroke-linecap="round" />
+<circle cx="125" cy="75" r="5" fill="#f1c9a5" />
+<line x1="74" y1="92" x2="108" y2="102" stroke="#d9a441" stroke-width="9" stroke-linecap="round" />
+<circle cx="111" cy="102" r="5" fill="#f1c9a5" />
+<path d="M131 62 q7 5 3 13" fill="none" stroke="#4a4740" stroke-width="2" stroke-linecap="round" />
+<path d="M118 108 q6 2 7 8" fill="none" stroke="#4a4740" stroke-width="2" stroke-linecap="round" />
+<rect x="220" y="130" width="10" height="48" rx="4" fill="#3b4a5c" />
+<rect x="234" y="130" width="10" height="48" rx="4" fill="#3b4a5c" />
+<rect x="218" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="233" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="228" y="72" width="8" height="12" fill="#8d5a3b" />
+<rect x="215" y="82" width="34" height="54" rx="13" fill="#2f7f73" />
+<circle cx="232" cy="60" r="15" fill="#8d5a3b" />
+<path d="M216 61 A16 16 0 0 1 248 61 Q232 49 216 61 Z" fill="#1c1b18" />
+<line x1="216" y1="92" x2="200" y2="80" stroke="#2f7f73" stroke-width="9" stroke-linecap="round" />
+<circle cx="197" cy="77" r="5" fill="#8d5a3b" />
+<line x1="248" y1="92" x2="252" y2="128" stroke="#2f7f73" stroke-width="9" stroke-linecap="round" />
+<circle cx="252" cy="131" r="5" fill="#8d5a3b" />
+</svg>
+
+      
+    </li>
+    
+    <li class="stop">
+      
+      <span class="nameplate soon">孤独症谱系人士 · 筹备中</span>
+      
+      <svg viewBox="0 0 320 200" role="img" aria-label="插画：两位朋友坐在公园长椅上，其中一位戴着耳机在画画" class="scene" focusable="false">
+<rect x="0" y="178" width="320" height="22" fill="#d8d3c6" />
+<rect x="262" y="86" width="12" height="94" fill="#8a6a4a" />
+<circle cx="268" cy="66" r="38" fill="#8fbf9a" />
+<circle cx="246" cy="84" r="22" fill="#8fbf9a" />
+<rect x="56" y="96" width="188" height="8" rx="3" fill="#b07a4a" />
+<rect x="66" y="96" width="6" height="34" fill="#b07a4a" />
+<rect x="228" y="96" width="6" height="34" fill="#b07a4a" />
+<rect x="56" y="128" width="188" height="10" rx="3" fill="#b07a4a" />
+<rect x="68" y="138" width="7" height="40" fill="#b07a4a" />
+<rect x="225" y="138" width="7" height="40" fill="#b07a4a" />
+<rect x="108" y="70" width="8" height="12" fill="#e8b48a" />
+<rect x="96" y="80" width="32" height="50" rx="12" fill="#4a6fa5" />
+<rect x="100" y="132" width="10" height="42" rx="4" fill="#3b4a5c" />
+<rect x="114" y="132" width="10" height="42" rx="4" fill="#3b4a5c" />
+<rect x="98" y="171" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="113" y="171" width="13" height="7" rx="3" fill="#2b2a27" />
+<circle cx="112" cy="58" r="15" fill="#e8b48a" />
+<path d="M96 59 A16 16 0 0 1 128 59 Q112 47 96 59 Z" fill="#3a2a1c" />
+<path d="M95 57 A17 17 0 0 1 129 57" fill="none" stroke="#1c1b18" stroke-width="4" />
+<rect x="91" y="52" width="8" height="15" rx="3" fill="#c46a4a" />
+<rect x="125" y="52" width="8" height="15" rx="3" fill="#c46a4a" />
+<line x1="98" y1="88" x2="106" y2="112" stroke="#4a6fa5" stroke-width="9" stroke-linecap="round" />
+<line x1="126" y1="88" x2="136" y2="112" stroke="#4a6fa5" stroke-width="9" stroke-linecap="round" />
+<rect x="102" y="98" width="38" height="25" rx="2" fill="#fbfaf6" />
+<path d="M109 115 q8 -10 16 -2 t10 -4" fill="none" stroke="#2f7f73" stroke-width="2" stroke-linecap="round" />
+<circle cx="107" cy="115" r="5" fill="#e8b48a" />
+<circle cx="137" cy="115" r="5" fill="#e8b48a" />
+<rect x="188" y="70" width="8" height="12" fill="#c98d63" />
+<rect x="176" y="80" width="32" height="50" rx="12" fill="#d9a441" />
+<rect x="180" y="132" width="10" height="42" rx="4" fill="#4a4740" />
+<rect x="194" y="132" width="10" height="42" rx="4" fill="#4a4740" />
+<rect x="178" y="171" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="193" y="171" width="13" height="7" rx="3" fill="#2b2a27" />
+<circle cx="192" cy="40" r="7" fill="#1c1b18" />
+<circle cx="192" cy="58" r="15" fill="#c98d63" />
+<path d="M176 59 A16 16 0 0 1 208 59 Q192 47 176 59 Z" fill="#1c1b18" />
+<line x1="176" y1="90" x2="146" y2="106" stroke="#d9a441" stroke-width="9" stroke-linecap="round" />
+<circle cx="143" cy="107" r="5" fill="#c98d63" />
+<line x1="208" y1="90" x2="212" y2="124" stroke="#d9a441" stroke-width="9" stroke-linecap="round" />
+<circle cx="212" cy="127" r="5" fill="#c98d63" />
+</svg>
+
+      
+    </li>
+    
+    <li class="stop">
+      
+      <span class="nameplate soon">认知症人士与家人 · 筹备中</span>
+      
+      <svg viewBox="0 0 320 200" role="img" aria-label="插画：一位老人和家人挽着手散步" class="scene" focusable="false">
+<rect x="0" y="178" width="320" height="22" fill="#d8d3c6" />
+<circle cx="282" cy="40" r="14" fill="#f0cf7a" />
+<rect x="34" y="96" width="10" height="84" fill="#8a6a4a" />
+<circle cx="39" cy="78" r="30" fill="#8fbf9a" />
+<line x1="266" y1="178" x2="266" y2="160" stroke="#5f8f6a" stroke-width="2" />
+<circle cx="266" cy="157" r="5" fill="#d9a441" />
+<line x1="284" y1="178" x2="284" y2="164" stroke="#5f8f6a" stroke-width="2" />
+<circle cx="284" cy="161" r="5" fill="#c46a4a" />
+<line x1="300" y1="178" x2="300" y2="158" stroke="#5f8f6a" stroke-width="2" />
+<circle cx="300" cy="155" r="5" fill="#d9a441" />
+<line x1="114" y1="90" x2="110" y2="128" stroke="#c46a4a" stroke-width="9" stroke-linecap="round" />
+<circle cx="110" cy="131" r="5" fill="#f1c9a5" />
+<rect x="118" y="130" width="10" height="48" rx="4" fill="#4a4740" />
+<rect x="132" y="130" width="10" height="48" rx="4" fill="#4a4740" />
+<rect x="116" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="131" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="126" y="72" width="8" height="12" fill="#f1c9a5" />
+<rect x="113" y="82" width="34" height="54" rx="13" fill="#c46a4a" />
+<circle cx="130" cy="60" r="15" fill="#f1c9a5" />
+<path d="M114 61 A16 16 0 0 1 146 61 Q130 49 114 61 Z" fill="#d6d1c6" />
+<line x1="200" y1="90" x2="204" y2="128" stroke="#2f7f73" stroke-width="9" stroke-linecap="round" />
+<circle cx="204" cy="131" r="5" fill="#e8b48a" />
+<rect x="172" y="130" width="10" height="48" rx="4" fill="#3b4a5c" />
+<rect x="186" y="130" width="10" height="48" rx="4" fill="#3b4a5c" />
+<rect x="170" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="185" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="180" y="72" width="8" height="12" fill="#e8b48a" />
+<rect x="167" y="82" width="34" height="54" rx="13" fill="#2f7f73" />
+<circle cx="184" cy="60" r="15" fill="#e8b48a" />
+<path d="M168 61 A16 16 0 0 1 200 61 Q184 49 168 61 Z" fill="#2b2a27" />
+<line x1="146" y1="90" x2="160" y2="114" stroke="#c46a4a" stroke-width="9" stroke-linecap="round" />
+<line x1="168" y1="90" x2="154" y2="112" stroke="#2f7f73" stroke-width="9" stroke-linecap="round" />
+<circle cx="162" cy="116" r="5" fill="#f1c9a5" />
+<circle cx="152" cy="115" r="5" fill="#e8b48a" />
+</svg>
+
+      
+    </li>
+    
+    <li class="stop">
+      
+      <span class="nameplate soon">轮椅使用者 · 筹备中</span>
+      
+      <svg viewBox="0 0 320 200" role="img" aria-label="插画：一位轮椅使用者来到有坡道的店门口" class="scene" focusable="false">
+<rect x="0" y="180" width="320" height="20" fill="#d8d3c6" />
+<rect x="204" y="28" width="116" height="152" fill="#e9e4d8" />
+<rect x="214" y="100" width="22" height="30" fill="#e2efec" />
+<rect x="244" y="92" width="42" height="88" rx="3" fill="#2f7f73" />
+<circle cx="278" cy="138" r="3" fill="#f0cf7a" />
+<polygon points="232,78 298,78 304,92 226,92" fill="#d9a441" />
+<polygon points="132,180 244,180 244,162" fill="#b9b3a5" />
+<line x1="78" y1="140" x2="74" y2="102" stroke="#4a4740" stroke-width="5" stroke-linecap="round" />
+<line x1="74" y1="102" x2="66" y2="100" stroke="#4a4740" stroke-width="5" stroke-linecap="round" />
+<rect x="76" y="134" width="36" height="6" fill="#4a4740" />
+<rect x="76" y="86" width="30" height="50" rx="12" fill="#4a6fa5" />
+<rect x="87" y="74" width="8" height="12" fill="#8d5a3b" />
+<circle cx="91" cy="62" r="15" fill="#8d5a3b" />
+<path d="M75 63 A16 16 0 0 1 107 63 Q91 51 75 63 Z" fill="#1c1b18" />
+<rect x="90" y="124" width="34" height="13" rx="6" fill="#3b4a5c" />
+<rect x="114" y="128" width="11" height="36" rx="4" fill="#3b4a5c" />
+<rect x="114" y="160" width="18" height="7" rx="3" fill="#2b2a27" />
+<circle cx="86" cy="158" r="22" fill="none" stroke="#1c1b18" stroke-width="4" />
+<circle cx="86" cy="158" r="3" fill="#1c1b18" />
+<line x1="110" y1="140" x2="122" y2="170" stroke="#4a4740" stroke-width="4" stroke-linecap="round" />
+<line x1="118" y1="168" x2="132" y2="168" stroke="#4a4740" stroke-width="4" stroke-linecap="round" />
+<circle cx="124" cy="174" r="6" fill="none" stroke="#1c1b18" stroke-width="3" />
+<line x1="94" y1="96" x2="100" y2="128" stroke="#4a6fa5" stroke-width="9" stroke-linecap="round" />
+<circle cx="101" cy="131" r="5" fill="#8d5a3b" />
+</svg>
+
+      
+    </li>
+    
+    <li class="stop">
+      
+      <span class="nameplate soon">罕见病群体 · 筹备中</span>
+      
+      <svg viewBox="0 0 320 200" role="img" aria-label="插画：三位朋友站在一起，中间的人围着斑马纹围巾，挥手打招呼" class="scene" focusable="false">
+<rect x="0" y="178" width="320" height="22" fill="#d8d3c6" />
+<path d="M10 20 Q160 52 310 20" fill="none" stroke="#8a857a" stroke-width="2" />
+<polygon points="34,25 50,28 40,41" fill="#d9a441" />
+<polygon points="84,32 100,34 91,47" fill="#c46a4a" />
+<polygon points="134,35 150,36 142,50" fill="#2f7f73" />
+<polygon points="182,36 198,35 190,49" fill="#4a6fa5" />
+<polygon points="232,32 248,29 241,43" fill="#d9a441" />
+<polygon points="278,26 294,22 288,36" fill="#c46a4a" />
+<rect x="76" y="130" width="10" height="48" rx="4" fill="#3b4a5c" />
+<rect x="90" y="130" width="10" height="48" rx="4" fill="#3b4a5c" />
+<rect x="74" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="89" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="84" y="72" width="8" height="12" fill="#c98d63" />
+<rect x="71" y="82" width="34" height="54" rx="13" fill="#4a6fa5" />
+<circle cx="88" cy="60" r="15" fill="#c98d63" />
+<path d="M72 61 A16 16 0 0 1 104 61 Q88 49 72 61 Z" fill="#1c1b18" />
+<line x1="72" y1="90" x2="68" y2="128" stroke="#4a6fa5" stroke-width="9" stroke-linecap="round" />
+<circle cx="68" cy="131" r="5" fill="#c98d63" />
+<line x1="104" y1="90" x2="108" y2="128" stroke="#4a6fa5" stroke-width="9" stroke-linecap="round" />
+<circle cx="108" cy="131" r="5" fill="#c98d63" />
+<rect x="216" y="56" width="32" height="34" rx="10" fill="#1c1b18" />
+<rect x="220" y="130" width="10" height="48" rx="4" fill="#3b4a5c" />
+<rect x="234" y="130" width="10" height="48" rx="4" fill="#3b4a5c" />
+<rect x="218" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="233" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="228" y="72" width="8" height="12" fill="#8d5a3b" />
+<rect x="215" y="82" width="34" height="54" rx="13" fill="#d9a441" />
+<circle cx="232" cy="60" r="15" fill="#8d5a3b" />
+<path d="M216 61 A16 16 0 0 1 248 61 Q232 49 216 61 Z" fill="#1c1b18" />
+<line x1="216" y1="90" x2="212" y2="128" stroke="#d9a441" stroke-width="9" stroke-linecap="round" />
+<circle cx="212" cy="131" r="5" fill="#8d5a3b" />
+<line x1="248" y1="90" x2="252" y2="128" stroke="#d9a441" stroke-width="9" stroke-linecap="round" />
+<circle cx="252" cy="131" r="5" fill="#8d5a3b" />
+<rect x="148" y="130" width="10" height="48" rx="4" fill="#4a4740" />
+<rect x="162" y="130" width="10" height="48" rx="4" fill="#4a4740" />
+<rect x="146" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="161" y="174" width="13" height="7" rx="3" fill="#2b2a27" />
+<rect x="156" y="72" width="8" height="12" fill="#f1c9a5" />
+<rect x="143" y="82" width="34" height="54" rx="13" fill="#2f7f73" />
+<circle cx="160" cy="60" r="15" fill="#f1c9a5" />
+<path d="M144 61 A16 16 0 0 1 176 61 Q160 49 144 61 Z" fill="#8a5a34" />
+<rect x="146" y="80" width="28" height="10" rx="4" fill="#fbfaf6" />
+<rect x="150" y="80" width="3" height="10" fill="#1c1b18" />
+<rect x="157" y="80" width="3" height="10" fill="#1c1b18" />
+<rect x="164" y="80" width="3" height="10" fill="#1c1b18" />
+<rect x="170" y="80" width="3" height="10" fill="#1c1b18" />
+<rect x="162" y="88" width="9" height="26" rx="3" fill="#fbfaf6" />
+<rect x="162" y="94" width="9" height="3" fill="#1c1b18" />
+<rect x="162" y="101" width="9" height="3" fill="#1c1b18" />
+<rect x="162" y="108" width="9" height="3" fill="#1c1b18" />
+<line x1="144" y1="90" x2="140" y2="128" stroke="#2f7f73" stroke-width="9" stroke-linecap="round" />
+<circle cx="140" cy="131" r="5" fill="#f1c9a5" />
+<line x1="176" y1="90" x2="190" y2="66" stroke="#2f7f73" stroke-width="9" stroke-linecap="round" />
+<circle cx="192" cy="63" r="5" fill="#f1c9a5" />
+</svg>
+
+      
+    </li>
+    
+  </ul>
+</section>
+
+<div class="wrap">
+  <section aria-labelledby="sec-title">
+    <h2 class="section-title" id="sec-title">栏目一览</h2>
+    <ul class="section-list">
+      
+      <li>
+        
+        <a class="sl-name" href="/vision/">视障</a>
+        
+        <span class="sl-desc">盲人与低视力人士</span>
+      </li>
+      
+      <li>
+        
+        <span class="sl-name soon">听障（筹备中）</span>
+        
+        <span class="sl-desc">聋人与听力障碍人士</span>
+      </li>
+      
+      <li>
+        
+        <span class="sl-name soon">自闭症（筹备中）</span>
+        
+        <span class="sl-desc">孤独症谱系</span>
+      </li>
+      
+      <li>
+        
+        <span class="sl-name soon">阿尔茨海默症（筹备中）</span>
+        
+        <span class="sl-desc">认知症与照护</span>
+      </li>
+      
+      <li>
+        
+        <span class="sl-name soon">肢体障碍（筹备中）</span>
+        
+        <span class="sl-desc">轮椅使用者与行动不便人士</span>
+      </li>
+      
+      <li>
+        
+        <span class="sl-name soon">罕见病（筹备中）</span>
+        
+        <span class="sl-desc">被忽视的少数</span>
+      </li>
+      
+    </ul>
+  </section>
+
+  <section aria-labelledby="latest-title">
+    <h2 class="section-title" id="latest-title">最新文章</h2>
+    <ul class="post-list">
+      
+      
+      <li>
+        <a class="pl-title" href="/vision/where-to-ask-shenyang/">在沈阳，视障相关的事可以去哪里问</a>
+        <span class="pl-meta"><span class="pl-sec">视障</span><time datetime="2026-11-17">2026-11-17</time></span>
+        <span class="pl-sum">办残疾人证、问补贴和康复、出门不方便想请人上门代办，在沈阳分别该找谁。只列公开的官方渠道。</span>
+      </li>
+      
+      
+      <li>
+        <a class="pl-title" href="/vision/guide-dogs/">导盲犬：全国只有 400 多只在工作</a>
+        <span class="pl-meta"><span class="pl-sec">视障</span><time datetime="2026-11-04">2026-11-04</time></span>
+        <span class="pl-sum">培养一只导盲犬通常要花 20 多万元，很多人排队等待。法律规定公共场所和交通工具应当为它们提供便利。</span>
+      </li>
+      
+      
+      <li>
+        <a class="pl-title" href="/vision/smartphones/">看不见，怎么用手机？</a>
+        <span class="pl-meta"><span class="pl-sec">视障</span><time datetime="2026-11-04">2026-11-04</time></span>
+        <span class="pl-sum">手机自带的读屏软件会把屏幕"念"出来，视障者靠手势就能聊天、购物、打车。</span>
+      </li>
+      
+      
+      <li>
+        <a class="pl-title" href="/vision/how-to-help/">遇到视障人士，怎么帮才不添乱</a>
+        <span class="pl-meta"><span class="pl-sec">视障</span><time datetime="2026-11-04">2026-11-04</time></span>
+        <span class="pl-sum">先问再帮，递手肘不拉手，走在半步前，遇到台阶和门先说一声。</span>
+      </li>
+      
+      
+      <li>
+        <a class="pl-title" href="/vision/common-myths/">关于视障，最常见的六个误解</a>
+        <span class="pl-meta"><span class="pl-sec">视障</span><time datetime="2026-11-04">2026-11-04</time></span>
+        <span class="pl-sum">拿盲杖却在看手机是装的吗？跟盲人说"看"会冒犯吗？导盲犬能不能摸？</span>
+      </li>
+      
+      
+      <li>
+        <a class="pl-title" href="/vision/what-is-visual-impairment/">视障是什么：不只是"看不见"</a>
+        <span class="pl-meta"><span class="pl-sec">视障</span><time datetime="2026-11-04">2026-11-04</time></span>
+        <span class="pl-sum">视障包括盲和低视力两大类。很多视障者其实还有一部分视力，只是戴上眼镜也矫正不过来。</span>
+      </li>
+      
+    </ul>
+  </section>
+</div>
+
+  </main>
+  <footer class="site-footer">
+  <div class="wrap">
+    <p>平视 · 不俯视，不仰视，平等地认识彼此</p>
+    <p>本站内容仅为科普，每个人的情况都不同。与任何人相处，最好的尊重是平等相待；如果对方可能需要帮助，先问一句“需要帮忙吗？”<a href="/about/#shuoming">完整说明</a></p>
+    <p>发现错误或有更好的表达？欢迎发邮件到 <a href="mailto:pingshi2026@163.com">pingshi2026@163.com</a>，或者<a href="https://github.com/zzzopb/zzzopb.github.io/issues">在 GitHub 留言</a>。</p>
+    <p class="beian"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">辽ICP备2026027486号<span class="visually-hidden">（在新窗口打开）</span></a></p>
+  </div>
+</footer>
+
+  <script src="/assets/a11y.js" defer></script>
+</body>
+</html>
