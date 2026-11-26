@@ -28,7 +28,7 @@ sections:
     tag: 听障人士
     name: 听障
     desc: 聋人与听力障碍人士
-    live: false
+    live: true
   - key: autism
     tag: 孤独症谱系人士
     name: 自闭症

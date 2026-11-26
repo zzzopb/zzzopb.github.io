@@ -20,7 +20,7 @@ layout: default
   </header>
   {{ content }}
   <aside class="post-foot" aria-label="说明">
-    <p>本文为科普内容，出处见文末。如果你是视障者或相关从业者，觉得哪里写得不对、不妥，非常欢迎<a href="https://github.com/zzzopb/zzzopb.github.io/issues">留言纠正</a>。</p>
+    <p>本文为科普内容，出处见文末。如果你是{% if sec.tag %}{{ sec.tag }}{% else %}当事人{% endif %}或相关从业者，觉得哪里写得不对、不妥，非常欢迎<a href="https://github.com/zzzopb/zzzopb.github.io/issues">留言纠正</a>。</p>
   </aside>
   {% if sec %}
   <nav class="more" aria-label="同栏目文章">

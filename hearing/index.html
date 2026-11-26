@@ -1,0 +1,31 @@
+---
+layout: default
+title: 听障
+summary: 关于聋人与听力障碍人士的科普：听障是什么、常见误解、手语、怎么交流、助听器和人工耳蜗。
+---
+<div class="wrap prose">
+  <nav class="crumbs" aria-label="当前位置"><a href="{{ '/' | relative_url }}">首页</a> <span aria-hidden="true">›</span> <span>听障</span></nav>
+  <h1>听障</h1>
+  <p class="lede">「听障」包括完全听不见的聋人，也包括还能听到一些、但听不清的重听人士。</p>
+  <p>有人用手语，有人读唇，有人戴着助听器或人工耳蜗用说话交流，也有人几种方式都用。所以和听障者打交道，最好的办法是先问一句：怎么沟通对你最方便？</p>
+  <section class="tips" aria-labelledby="tips-title">
+    <h2 id="tips-title">相处小贴士</h2>
+    <ul>
+      <li>先轻拍肩膀或挥挥手，等对方看向你再开口</li>
+      <li>面对面，正常语速说话，不用喊</li>
+      <li>没听懂就换个说法，或者写下来</li>
+    </ul>
+    <p class="tips-more">每一条为什么、具体怎么做，见<a href="{{ '/hearing/how-to-communicate/' | relative_url }}">《和听障者交流：从"拍拍肩"开始》</a>。</p>
+  </section>
+  <h2>文章</h2>
+  <p>建议从第一篇开始读：</p>
+  <ul class="post-list">
+    {% assign ps = site.categories.hearing | sort: "order" %}
+    {% for p in ps %}
+    <li>
+      <a class="pl-title" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      {% if p.summary %}<span class="pl-sum">{{ p.summary }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
