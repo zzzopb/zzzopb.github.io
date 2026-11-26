@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>页面不存在 · 平视</title>
+  <meta name="description" content="一个介绍多元群体的科普网站：用通俗、准确、尊重的方式，讲清楚不同人群的真实处境。">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>
+    // 在页面显示前就套用读者上次选的字号和配色，避免闪一下
+    try {
+      var fs = localStorage.getItem('pingshi-font');
+      if (fs) document.documentElement.setAttribute('data-font', fs);
+      var th = localStorage.getItem('pingshi-theme');
+      if (th) document.documentElement.setAttribute('data-theme', th);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <span class="brand-name">平视</span>
+      <span class="brand-tag">不俯视，不仰视，平等地认识彼此</span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <ul>
+        <li><a href="/">首页</a></li>
+        
+        <li><a href="/vision/">视障</a></li>
+        
+        <li><a href="/hearing/">听障</a></li>
+        
+        <li><a href="/help/">热线</a></li>
+        <li><a href="/about/">关于</a></li>
+      </ul>
+    </nav>
+    <div class="reader-tools" role="group" aria-label="阅读设置">
+      <button type="button" class="tool" data-font-step="-1" aria-label="缩小字号">A−</button>
+      <span class="font-now" id="font-now">字号：标准</span>
+      <button type="button" class="tool" data-font-step="1" aria-label="放大字号">A＋</button>
+      <span class="visually-hidden" id="font-say" aria-live="polite"></span>
+      <button type="button" class="tool" id="theme-toggle" aria-label="切换高对比度配色" aria-pressed="false">高对比</button>
+    </div>
+  </div>
+</header>
+
+  <main id="main" tabindex="-1">
+    <div class="wrap prose">
+  <h1>这个页面不存在</h1>
+  <p>可能是链接写错了，或者文章换了地址。</p>
+  <p><a href="/">回到首页</a></p>
+</div>
+
+  </main>
+  <footer class="site-footer">
+  <div class="wrap">
+    <p>平视 · 不俯视，不仰视，平等地认识彼此</p>
+    <p>本站内容仅为科普，每个人的情况都不同。与任何人相处，最好的尊重是平等相待；如果对方可能需要帮助，先问一句“需要帮忙吗？”<a href="/about/#shuoming">完整说明</a></p>
+    <p>发现错误或有更好的表达？欢迎发邮件到 <a href="mailto:pingshi2026@163.com">pingshi2026@163.com</a>，或者<a href="https://github.com/zzzopb/zzzopb.github.io/issues">在 GitHub 留言</a>。</p>
+    <p class="beian"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">辽ICP备2026027486号<span class="visually-hidden">（在新窗口打开）</span></a></p>
+  </div>
+</footer>
+
+  <script src="/assets/a11y.js" defer></script>
+</body>
+</html>

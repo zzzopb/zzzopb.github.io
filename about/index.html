@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>关于 · 平视</title>
+  <meta name="description" content="平视是什么、我们怎么写、信息从哪里来。">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>
+    // 在页面显示前就套用读者上次选的字号和配色，避免闪一下
+    try {
+      var fs = localStorage.getItem('pingshi-font');
+      if (fs) document.documentElement.setAttribute('data-font', fs);
+      var th = localStorage.getItem('pingshi-theme');
+      if (th) document.documentElement.setAttribute('data-theme', th);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <span class="brand-name">平视</span>
+      <span class="brand-tag">不俯视，不仰视，平等地认识彼此</span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <ul>
+        <li><a href="/">首页</a></li>
+        
+        <li><a href="/vision/">视障</a></li>
+        
+        <li><a href="/hearing/">听障</a></li>
+        
+        <li><a href="/help/">热线</a></li>
+        <li><a href="/about/" aria-current="page">关于</a></li>
+      </ul>
+    </nav>
+    <div class="reader-tools" role="group" aria-label="阅读设置">
+      <button type="button" class="tool" data-font-step="-1" aria-label="缩小字号">A−</button>
+      <span class="font-now" id="font-now">字号：标准</span>
+      <button type="button" class="tool" data-font-step="1" aria-label="放大字号">A＋</button>
+      <span class="visually-hidden" id="font-say" aria-live="polite"></span>
+      <button type="button" class="tool" id="theme-toggle" aria-label="切换高对比度配色" aria-pressed="false">高对比</button>
+    </div>
+  </div>
+</header>
+
+  <main id="main" tabindex="-1">
+    <div class="wrap prose">
+
+  <h1 id="section">关于「平视」</h1>
+
+  <p>「平视」是一个个人维护的科普网站，介绍多元的群体和不同的人。名字的意思是：不俯视，不仰视，平等地看待彼此。</p>
+
+  <p>很多误解，来自”不了解”。我们希望用通俗的语言，把不同人群的真实处境讲清楚：他们是谁，常被怎样误解，日常怎么生活，我们又能怎样相处。</p>
+
+  <p>目前已上线的栏目是<strong>视障</strong>和<strong>听障</strong>，自闭症、阿尔茨海默症、肢体障碍、罕见病等栏目正在筹备，会陆续更新。</p>
+
+  <h2 id="shuoming">说明</h2>
+
+  <p>本站希望帮助更多人了解不同的群体，内容仅供科普参考，不能代替医疗或专业建议。</p>
+
+  <p>我们相信，最大的尊重不是特殊的同情，而是把对方当作一个平等的、独立的人：先看到这个人，再看到他的不同。需要帮助时，先询问、听对方的意见，而不是替对方做决定。</p>
+
+  <h2 id="section-1">我们怎么写</h2>
+
+  <p><strong>准确</strong>
+涉及医学、数据、法律的内容，尽量引用权威来源，比如世界卫生组织、国家标准、法律原文、主流媒体报道和学术研究。每篇文章末尾都列出出处，方便你核对。</p>
+
+  <p><strong>尊重</strong>
+我们尽量使用当事人群体更认可的说法。比如：</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>尽量避免</th>
+        <th>我们使用</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>瞎子</td>
+        <td>盲人、视障者、视障人士</td>
+      </tr>
+      <tr>
+        <td>残废</td>
+        <td>残障、残疾</td>
+      </tr>
+      <tr>
+        <td>正常人（和残障者对比时）</td>
+        <td>普通人、非残障人士</td>
+      </tr>
+      <tr>
+        <td>特殊人群</td>
+        <td>不同的人、多元群体</td>
+      </tr>
+      <tr>
+        <td>身残志坚、可怜</td>
+        <td>平实地描述，不刻意煽情</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>不同群体、不同个人的偏好并不完全一样。比如很多盲人自己就直接说”盲人”，全国性组织也叫”中国盲人协会”。我们会持续学习、调整。</p>
+
+  <p><strong>听当事人的声音</strong>
+残障运动里有一句话：”没有我们的参与，不要做关于我们的决定。”我们希望以后能更多地引用当事人自己的讲述。如果你愿意分享经历，欢迎联系。</p>
+
+  <h2 id="section-2">不是什么</h2>
+
+  <ul>
+    <li><strong>不是医疗建议。</strong>身体不适，请找专业医生。</li>
+    <li><strong>不代表任何机构。</strong>这是一个个人项目。</li>
+  </ul>
+
+  <h2 id="section-3">纠错与建议</h2>
+
+  <p>写错了、说法不妥、有更好的资料？非常欢迎指出。你可以发邮件到 <a href="mailto:pingshi2026@163.com">pingshi2026@163.com</a>，或者在 GitHub 上<a href="https://github.com/zzzopb/zzzopb.github.io/issues">留言</a>，我们会尽快核实、修改，并在文章里注明更新日期。</p>
+
+  <h2 id="section-4">无障碍</h2>
+
+  <p>这个网站本身也在尽量做到无障碍：</p>
+
+  <ul>
+    <li>右上角可以<strong>放大字号</strong>、切换<strong>高对比度</strong>配色</li>
+    <li>跟随系统自动切换深色模式</li>
+    <li>可以只用键盘浏览，页面最上方有”跳到正文”的链接</li>
+    <li>尽量使用清楚的标题层级，方便读屏软件导航</li>
+  </ul>
+
+  <p>如果你在使用中遇到障碍，请告诉我们。</p>
+
+</div>
+
+  </main>
+  <footer class="site-footer">
+  <div class="wrap">
+    <p>平视 · 不俯视，不仰视，平等地认识彼此</p>
+    <p>本站内容仅为科普，每个人的情况都不同。与任何人相处，最好的尊重是平等相待；如果对方可能需要帮助，先问一句“需要帮忙吗？”<a href="/about/#shuoming">完整说明</a></p>
+    <p>发现错误或有更好的表达？欢迎发邮件到 <a href="mailto:pingshi2026@163.com">pingshi2026@163.com</a>，或者<a href="https://github.com/zzzopb/zzzopb.github.io/issues">在 GitHub 留言</a>。</p>
+    <p class="beian"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">辽ICP备2026027486号<span class="visually-hidden">（在新窗口打开）</span></a></p>
+  </div>
+</footer>
+
+  <script src="/assets/a11y.js" defer></script>
+</body>
+</html>

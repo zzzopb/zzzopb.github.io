@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>看不见，怎么用手机？ · 平视</title>
+  <meta name="description" content="手机自带的读屏软件会把屏幕"念"出来，视障者靠手势就能聊天、购物、打车。">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>
+    // 在页面显示前就套用读者上次选的字号和配色，避免闪一下
+    try {
+      var fs = localStorage.getItem('pingshi-font');
+      if (fs) document.documentElement.setAttribute('data-font', fs);
+      var th = localStorage.getItem('pingshi-theme');
+      if (th) document.documentElement.setAttribute('data-theme', th);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <span class="brand-name">平视</span>
+      <span class="brand-tag">不俯视，不仰视，平等地认识彼此</span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <ul>
+        <li><a href="/">首页</a></li>
+        
+        <li><a href="/vision/" aria-current="page">视障</a></li>
+        
+        <li><a href="/hearing/">听障</a></li>
+        
+        <li><a href="/help/">热线</a></li>
+        <li><a href="/about/">关于</a></li>
+      </ul>
+    </nav>
+    <div class="reader-tools" role="group" aria-label="阅读设置">
+      <button type="button" class="tool" data-font-step="-1" aria-label="缩小字号">A−</button>
+      <span class="font-now" id="font-now">字号：标准</span>
+      <button type="button" class="tool" data-font-step="1" aria-label="放大字号">A＋</button>
+      <span class="visually-hidden" id="font-say" aria-live="polite"></span>
+      <button type="button" class="tool" id="theme-toggle" aria-label="切换高对比度配色" aria-pressed="false">高对比</button>
+    </div>
+  </div>
+</header>
+
+  <main id="main" tabindex="-1">
+    
+<article class="wrap prose">
+  <nav class="crumbs" aria-label="当前位置">
+    <a href="/">首页</a> <span aria-hidden="true">›</span>
+    <a href="/vision/">视障</a> <span aria-hidden="true">›</span>
+    <span>看不见，怎么用手机？</span>
+  </nav>
+  <header class="post-head">
+    <h1>看不见，怎么用手机？</h1>
+    <p class="lede">手机自带的读屏软件会把屏幕"念"出来，视障者靠手势就能聊天、购物、打车。</p>
+    <p class="meta">
+      发布于 <time datetime="2026-11-04">2026 年 11 月 4 日</time>
+       · 更新于 <time datetime="2026-11-16">2026 年 11 月 16 日</time>
+       · 阅读约 5 分钟
+    </p>
+    <p class="aud-row"><span class="aud aud-blind">主要讲全盲</span></p>
+  </header>
+  <p>很多人第一次看到盲人用手机都会很惊讶：屏幕都看不见，怎么点？答案是<strong>读屏软件</strong>。</p>
+
+<h2 id="读屏软件把屏幕念出来">读屏软件：把屏幕念出来</h2>
+
+<p>读屏软件会把屏幕上的文字、按钮、图标用语音念出来。主流手机都自带，免费：</p>
+
+<ul>
+  <li><strong>苹果 iPhone / iPad</strong>：叫 <strong>VoiceOver</strong>，在”设置 → 辅助功能”里打开。<sup class="ref"><a href="#src-1" aria-label="出处 1">1</a></sup></li>
+  <li><strong>安卓手机</strong>：谷歌的读屏软件叫 <strong>TalkBack</strong>，国内不少手机品牌也有自己的读屏功能，名字和位置因品牌而异，一般也在”无障碍”或”辅助功能”设置里。</li>
+</ul>
+
+<h2 id="手势怎么用">手势怎么用？</h2>
+
+<p>打开读屏后，手机的操作方式会变。以苹果的 VoiceOver 为例：<sup class="ref"><a href="#src-1" aria-label="出处 1">1</a></sup></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>操作</th>
+      <th>效果</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>单指点一下</td>
+      <td>念出手指下面的内容（只是”听”，不会打开）</td>
+    </tr>
+    <tr>
+      <td>单指双击</td>
+      <td>打开刚才念到的那一项</td>
+    </tr>
+    <tr>
+      <td>单指左右滑</td>
+      <td>跳到上一个 / 下一个内容</td>
+    </tr>
+    <tr>
+      <td>两指往上滑</td>
+      <td>从头念整个屏幕</td>
+    </tr>
+    <tr>
+      <td>两指点一下</td>
+      <td>让它先别念了</td>
+    </tr>
+    <tr>
+      <td>三指上下滑</td>
+      <td>翻页</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>所以视障者发一条微信，大概是这样的：滑到微信，双击打开；左右滑找到某个聊天，双击进去；找到输入框，双击，用语音或键盘输入；再找到”发送”，双击。</p>
+
+<p class="note">如果你想体验一下，可以在自己手机上打开读屏试试。<strong>提醒：</strong>打开后操作方式会完全改变，先在设置里找好关闭的方法，或者记住苹果手机可以对 Siri 说"关闭 VoiceOver"。</p>
+
+<h2 id="难点不是所有-app-都读得出来">难点：不是所有 App 都”读得出来”</h2>
+
+<p>读屏软件只能念出 App 告诉它的内容。如果开发者没给按钮写上文字说明，读屏就只能念”按钮”“图片”，视障者就不知道这是干嘛的。</p>
+
+<p>2018 年有过一次规模不小的评测：13 位视障用户试用了 7 个手机品牌和 31 款常用 App。结果是大多数 App 基本能用，但很多按钮没有标签；滑块验证码、全屏播放、新闻里的图片说明，都是常见的障碍。评测者认为，主要问题不是技术难度或成本，而是缺少和视障用户的沟通、对他们的需求不够重视。<sup class="ref"><a href="#src-2" aria-label="出处 2">2</a></sup></p>
+
+<p class="note">这次评测是 2018 年的，具体到哪个品牌、哪款 App 的结论可能已经过时。这里引用它，是为了说明障碍通常出在哪几类地方。</p>
+
+<h2 id="如果你是做-app-或网站的">如果你是做 App 或网站的</h2>
+
+<p>几个最基本、最容易做到的点：</p>
+
+<ul>
+  <li>给每个按钮、图标写上<strong>文字说明</strong>（比如”返回”“发送”），别只放一个图标。</li>
+  <li>给有意义的图片写<strong>替代文字</strong>。</li>
+  <li>验证码、滑块这类只能”看”的操作，提供<strong>其他验证方式</strong>。</li>
+  <li>上线前，自己打开读屏<strong>从头到尾用一遍</strong>。</li>
+</ul>
+
+<h2 id="平视想说的">平视想说的</h2>
+
+<p>读屏软件已经装在每一部手机里了。一个 App 视障者能不能用，大多数时候不取决于他们自己，而取决于做这个 App 的人有没有给按钮写上那一行说明。</p>
+
+<p>这个网站也在尽量做到上面这些：字号可以调大，有高对比度模式，所有链接都有清楚的文字。如果你用读屏浏览时遇到问题，欢迎告诉我们。</p>
+
+<h2 id="出处">出处</h2>
+
+<p>文中的小数字对应下面的编号。每条后面写了它讲的是什么，想看原文可以点链接。</p>
+
+<ol class="sources">
+<li id="src-1">美国盲人基金会（AFB）对 iPhone 和 iPad 读屏功能 VoiceOver 的介绍。讲了 VoiceOver 是什么，以及常用手势分别起什么作用。<a href="https://afb.org/blindness-and-low-vision/using-technology/cell-phones-tablets-mobile/apple-ios-iphone-and-ipad-1">原文（英文）</a></li>
+<li id="src-2">凤凰网科技 2018 年 12 月的评测《7 大品牌手机 + 31 款 App 无障碍横评》，爱范儿转载。13 位视障用户实际试用后，列出了哪些地方能用、哪些地方卡住，以及评测者对原因的判断。<a href="https://www.ifanr.com/1150753">原文</a></li>
+</ol>
+
+  <aside class="post-foot" aria-label="说明">
+    <p>本文为科普内容，出处见文末。如果你是视障人士或相关从业者，觉得哪里写得不对、不妥，非常欢迎<a href="https://github.com/zzzopb/zzzopb.github.io/issues">留言纠正</a>。</p>
+  </aside>
+  
+  <nav class="more" aria-label="同栏目文章">
+    <h2>更多「视障」文章</h2>
+    <ul class="post-list">
+      
+      <li><a href="/vision/where-to-ask-shenyang/">在沈阳，视障相关的事可以去哪里问</a></li>
+      
+      <li><a href="/vision/guide-dogs/">导盲犬：全国只有 400 多只在工作</a></li>
+      
+      <li><a href="/vision/how-to-help/">遇到视障人士，怎么帮才不添乱</a></li>
+      
+      <li><a href="/vision/common-myths/">关于视障，最常见的六个误解</a></li>
+      
+      <li><a href="/vision/what-is-visual-impairment/">视障是什么：不只是"看不见"</a></li>
+      
+    </ul>
+  </nav>
+  
+</article>
+
+  </main>
+  <footer class="site-footer">
+  <div class="wrap">
+    <p>平视 · 不俯视，不仰视，平等地认识彼此</p>
+    <p>本站内容仅为科普，每个人的情况都不同。与任何人相处，最好的尊重是平等相待；如果对方可能需要帮助，先问一句“需要帮忙吗？”<a href="/about/#shuoming">完整说明</a></p>
+    <p>发现错误或有更好的表达？欢迎发邮件到 <a href="mailto:pingshi2026@163.com">pingshi2026@163.com</a>，或者<a href="https://github.com/zzzopb/zzzopb.github.io/issues">在 GitHub 留言</a>。</p>
+    <p class="beian"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">辽ICP备2026027486号<span class="visually-hidden">（在新窗口打开）</span></a></p>
+  </div>
+</footer>
+
+  <script src="/assets/a11y.js" defer></script>
+</body>
+</html>
